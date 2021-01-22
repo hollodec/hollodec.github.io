@@ -8,37 +8,61 @@
 #  education3:
 #  education4:
 
-- name: Rebecca Gharibaan
+- name: Ben Lobo
   photo: rock.jpg
-  info: Master student
-  email: R.Gharibaan@student.tudelft.nl
+  info: PhD student
+  email: Benjamin.Lobo.2018@live.rhul.ac.uk
   number_educ: 0
   education1:
 
-- name: Rémi Claessen
+- name: Laura Serra
   photo: rock.jpg
-  info: Master student
-  email: remi.c60000@gmail.com
+  info: PhD student
+  email: Laura.Serra.2014@live.rhul.ac.uk
   number_educ: 0
   education1:
 
-- name: Maialen Larrazabal Ortego
+- name: Tom Barton
   photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  info: PhD student
+  email: Tom.Barton.2019@live.rhul.ac.uk
   number_educ: 0
   education1:
 
-- name: Sergio Barquero Pierantoni
+- name: Lewis Virgo
   photo: rock.jpg
-  info: Master student
-  email: s.barquero.pierantoni@umail.leidenuniv.nl
+  info: PhD student
+  email: Lewis.Virgo.2016@live.rhul.ac.uk
   number_educ: 0
   education1:
 
-- name: Evert Stolte
+- name: Zhamilya Mukasheva
   photo: rock.jpg
-  info: Master student
-  email: evert_3aug@hotmail.com
+  info: PhD student
+  email: Zhamilya.Mukasheva.2018@live.rhul.ac.uk
   number_educ: 0
   education1:
+
+- name: Nick Hatton
+  photo: rock.jpg
+  info: PhD student
+  email: Nick.Hatton@rhul.ac.uk
+  number_educ: 0
+  education1:
+  
+- name: Matt Polacko
+  photo: rock.jpg
+  info: PhD student
+  email: Matt.Polacko.2017@live.rhul.ac.uk
+  number_educ: 0
+  education1:
+  
+- name: Diana Bartmann
+  photo: rock.jpg
+  info: PhD student
+  email: Diana.Bartmann.2018@live.rhul.ac.uk
+  number_educ: 0
+  education1:
+  
+
+

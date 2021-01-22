@@ -1,92 +1,143 @@
-- name: Milan P Allan
-  photo: Milan.jpg
-  info: Associate professor, started Jan 2015
-  email: milan.allan@gmail.com
-  number_educ: 5
-  education1: Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
-  education2: PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
-  education3: Postdoc Cornell
-  education4: <a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with Andreas Wallraff
-  education5: <a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
-
-- name: Jianfeng (Jacky) Ge
-  photo: Jacky.jpg
-  info: Postdoc, started Oct 2019
-  email: ge@Physics.LeidenUniv.nl
+- name: Nick Allen
+  photo: Allen.jpg
+  info: Professor of Politics
+  email: Nicholas.Allen@rhul.ac.uk
+  twitter: ProfNJAllen
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/nicholas-allen(f69c6bc8-318f-4578-961a-9a7d3cf07b21)/publications.html"
   number_educ: 3
-  education1: Postdoc with <a href="http://hoffman.physics.harvard.edu">Jenny Hoffman</a>, Harvard University
-  education2: Ph.D. with <a href="https://www.physics.sjtu.edu.cn/en/people/1/jfJia">Jinfeng Jia</a>, Shanghai Jiao Tong University
-  education3: B.S. East China University of Science and Technology
+  education1: British cabinet government 
+  education2: politicians' ethics
+  education3: electoral and party politics
 
-- name: Koen M Bastiaans
-  photo: Koen.jpg
-  info: Postdoc, started Sep 2015
-  email: Bastiaans@Physics.LeidenUniv.nl
-  number_educ: 2
-  education1: PhD with Milan Allan, Leiden University
-  education2: Master Leiden University with Milan Allan
+- name: Giacomo Benedetto
+  photo: Benedetto.jpg
+  info: Senior Lecturer in Politics
+  email: Giacomo.Benedetto@rhul.ac.uk
+  twitter: ggbenedetto
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/giacomo-benedetto(7d67c091-a49e-4942-a656-a4b431769845)/publications.html"
+  number_educ: 3
+  education1: European Union budgets
+  education2: Social democracy
+  education3: Comparative European politics
 
-- name: Jiasen Niu
-  photo: Jiasen.png
-  info: Postdoc, started Oct 2020
-  email: niu@physics.leidenuniv.nl
-  number_educ: 2
-  education1: Ph.D. with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
-  education2: BSc Jilin University
+- name: Sarah Childs
+  photo: Childs.jpg
+  info: Professor of Politics and Gender
+  email: Sarah.Childs@rhul.ac.uk
+  twitter: profsarahchilds
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sarah-childs(a4f918f7-c05b-4347-b79a-186b2842ed11)/publications.html"
+  number_educ: 3
+  education1: descriptive and substantive representation
+  education2: legislative reform
+  education3: candidate selection
 
-- name: Damianos Chatzopoulos
-  photo: Damianos.jpg
-  info: PhD Student, started December 2017
-  email: chatzopoulos@Physics.LeidenUniv.nl
-  number_educ: 2
-  education1: Bachelor National and Kapodistrian University of Athens with D Syvridis
-  education2: Master TU Delft with <a href="http://vanderzantlab.tudelft.nl/">Herre van der Zant</a>
-  education3:
+- name: Licia Cianetti
+  photo: Cianetti.png
+  info: Leverhulme Early Career Fellow
+  email: Licia.Cianetti@rhul.ac.uk
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/licia-cianetti(eb93895b-be21-4932-88c4-5b8a727ead95)/publications.html"
+  number_educ: 3
+  education1: Central and Eastern European politics
+  education2: democratization
+  education3: local policies on multiculturalism
 
-- name: Willem Tromp
-  photo: website_pic_willem.jpg
-  info: PhD Student, started September 2018
-  email: WTromp@physics.leidenuniv.nl
-  number_educ: 1
-  education1: Master Leiden University with Felix Baumberger, Milan Allan
-  education2:
-  education3:
-  education4:
+- name: Sofia Collignon
+  photo: Collignon.jpg
+  info: Lecturer in Political Communication
+  email: Sofia.Collignon@rhul.ac.uk
+  twitter: SofiaColMar
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f)/publications.html"
+  number_educ: 3
+  education1: campaign styles
+  education2: local parties
+  education3: candidate selection
 
-- name: Tjerk Benschop
-  photo: tjeruk.jpg
-  info: PhD Student, started November 2018
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: Master Leiden University with Milan Allan
-  education2: Casimir PhD grant
-  education3:
-  education4:
+- name: Ursula Hackett
+  photo: Hackett.jpg
+  info: Senior Lecturer in Politics
+  email: Ursula.Hackett@rhul.ac.uk
+  twitter: UrsulaBHackett
+  homepage: http://www.ursulahackett.com/
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/ursula-hackett(36bc1d93-6ed9-423b-aeee-844ee6f2e5c6)/publications.html"
+  number_educ: 3
+  education1: American political development
+  education2: education policy
+  education3: politics of public policy
 
-- name: Kees van Oosten
-  photo: DSC_1032.JPG
-  info: FFine mechanical engineer (also associated with the FMD)
-  email: Oosten@fmd.physics.leidenuniv.nl
-  number_educ: 2
-  education1: Leidse instrumentmakers School
-  education2: Associate degree Mechanical Engineering, Hogeschool Arnhem Nijmegen
+- name: Chris Hanretty
+  photo: Hanretty.jpg
+  info: Professor of Politics
+  email: chris.hanretty@rhul.ac.uk
+  twitter: chrishanretty
+  homepage: http://chrishanretty.co.uk/
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/christopher-hanretty(69469d99-0aa0-4f63-87a9-b96dbd86373d)/publications.html"
+  number_educ: 3
+  education1: substantive representation
+  education2: local public opinion
+  education3: judicial behaviour
 
-- name: Hugo van Bohemen
-  photo: hugo.jpg
-  info: Fine mechanical engineer (also associated with the FMD)
-  email: h.s.m.van.bohemen@physics.leidenuniv.nl
-  number_educ: 1
-  education1: Leidse Instrumentmakers School
-  education2:
-  education3:
-  education4:
+- name: Oliver Heath
+  photo: Heath.jpg
+  info: Professor of Politics
+  email: oliver.heath@rhul.ac.uk
+  twitter: olhe
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/oliver-heath(5ae90ce4-2542-4f98-9168-2762f43d5ebc)/publications.html"
+  number_educ: 3
+  education1: working class voters
+  education2: Indian electoral politics
+  education3: party entry and exit
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
-  email: milan.allan@gmail.com
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:
+- name: Chris Prosser
+  photo: Prosser.jpg
+  info: Lecturer in Politics
+  email: chris.prosser@rhul.ac.uk
+  twitter: caprosser
+  homepage: https://caprosser.com/
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/christopher-prosser(f9cd3368-4a79-4d5d-bd5e-1a5c8da79f1c)/publications.html"
+  number_educ: 3
+  education1: survey methodology
+  education2: electoral participation
+  education3: political psychology
+
+- name: Dishil Shrimankar
+  photo: Shrimankar.jpg
+  info: Post-Doctoral Research Fellow
+  email: dishil.shrimankar@rhul.ac.uk
+  twitter: Dishil91
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/dishil-shrimankar(b9769b7c-5514-465e-b9d5-ec737166f8f6).html"
+  number_educ: 3
+  education1: local parties
+  education2: candidate selection
+  education3: Indian electoral politics
+
+- name: James Sloam
+  photo: Sloam.jpg
+  info: Professor of Politics
+  email: James.Sloam@rhul.ac.uk
+  twitter: James_Sloam
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/james-sloam(bdd4ef87-7beb-4fc1-8a81-a2c9119a137e)/publications.html"
+  number_educ: 3
+  education1: youth politics
+  education2: electoral participation
+  education3: environmental politics
+
+- name: Kaat Smets
+  photo: Smets.jpg
+  info: Senior Lecturer in Politics (Quantitative Methods)
+  email: kaat.smets@rhul.ac.uk
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/kaat-smets(e1374f99-c608-4884-9554-10ec82dfbf69)/publications.html"
+  number_educ: 3
+  education1: electoral participation
+  education2: age differences in political behaviour
+  education3: attitude change
+
+- name: Joost van Spanje
+  photo: vanSpanje.jpg
+  info: Professor of Political Communication
+  email: Joost.vanSpanje@rhul.ac.uk
+  twitter: joostvanspanje
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/joost-van-spanje(40e70bb2-68ee-4d0b-9dc3-4580929b8c79)/publications.html"
+  number_educ: 3
+  education1: radical right-wing parties
+  education2: political communication
+  education3: political speech
