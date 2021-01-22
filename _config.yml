@@ -6,13 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: The Democracy and Elections Centre @ RHUL
+email: chris.hanretty@rhul.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: ""
+  The Democracy and Elections Centre at Royal Holloway brings together researchers interested in electoral behaviour and its consequences, and how elections shape public policy. Here we share some of our blog-posts, papers, and interactive visualizations.
+baseurl: "/dec_mockup"
 url: ""
 
 include:
@@ -22,8 +20,22 @@ include:
 sass:
   sass_dir: _sass
 
+plugins:
+  - jekyll-scholar
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+scholar:
+  source: ./_bibliography
+  group_by: year
+  group_order: descending
+  bibliography: publications.bib
+  style: apa-no-doi-no-issue
+  bibliography-template: bib
+
 # Conversion
-markdown: kramdown
+# markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -31,15 +43,15 @@ incremental: false
 
 
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+# # Markdown Processing
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   smart_quotes: lsquo,rsquo,ldquo,rdquo
+#   enable_coderay: false
+#   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
