@@ -11,6 +11,7 @@ library(yaml)
 library(curl)
 library(RefManageR)
 library(bibtex)
+library(ymlthis)
 
 ## Helper functions
 ## Get the description field
@@ -173,6 +174,11 @@ tidy_entries <- function(bibentry) {
 qux <- lapply(baz, tidy_entries)
 qux <- do.call("c", qux)
 WriteBib(qux, file = "../_bibliography/publications.bib")
+
+### Also write out as YAML
+yammeled <- bib2yml(path = "../_bibliography/publications.bib")
+use_yml_file(.yml = yammeled,
+             path = "../_data/biblio.yml")
 
 ### 
 ## if (file.exists("pure_data.rds")) {
