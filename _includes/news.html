@@ -1,12 +1,14 @@
-
-<div class="well">
-<h4>News</h4>
-
 {% for article in site.data.news limit:9 %}
-{{ article.date }}
-<p>{{ article.headline | markdownify }}</p>
+<div class="col-md-3">
+    <div class="article">
+        <img class="article-thumb" src="{{ article.image_url }}" alt="{{ article.headline | strip_html | truncate: 30 }}">
+        <div class="article-excerpt">{{ article.headline | markdownify }}</div>
+        <p class="article-date"><strong>{{ article.date | date: "%-d %B %Y" }}</strong></p>
+    </div>
+</div>
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<div class="col-12 text-center">
+    <h4 class="articles-see-all"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">See all News...</a></h4>
+</div>
 
-    </div>

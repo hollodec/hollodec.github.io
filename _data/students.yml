@@ -8,13 +8,6 @@
 #  education3:
 #  education4:
 
-- name: Ben Lobo
-  photo: rock.jpg
-  info: PhD student
-  email: Benjamin.Lobo.2018@live.rhul.ac.uk
-  number_educ: 0
-  education1:
-
 - name: Laura Serra
   photo: rock.jpg
   info: PhD student
@@ -29,13 +22,6 @@
   number_educ: 0
   education1:
 
-- name: Lewis Virgo
-  photo: rock.jpg
-  info: PhD student
-  email: Lewis.Virgo.2016@live.rhul.ac.uk
-  number_educ: 0
-  education1:
-
 - name: Zhamilya Mukasheva
   photo: rock.jpg
   info: PhD student
@@ -47,13 +33,6 @@
   photo: rock.jpg
   info: PhD student
   email: Nick.Hatton@rhul.ac.uk
-  number_educ: 0
-  education1:
-  
-- name: Matt Polacko
-  photo: rock.jpg
-  info: PhD student
-  email: Matt.Polacko.2017@live.rhul.ac.uk
   number_educ: 0
   education1:
   

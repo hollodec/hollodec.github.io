@@ -6,5 +6,6 @@ permalink: /datasets/
 ---
 
 # Data-sets
+{: .page-title}
 
 *To follow*

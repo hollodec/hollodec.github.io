@@ -20,27 +20,6 @@
   education2: Social democracy
   education3: Comparative European politics
 
-- name: Sarah Childs
-  photo: Childs.jpg
-  info: Professor of Politics and Gender
-  email: Sarah.Childs@rhul.ac.uk
-  twitter: profsarahchilds
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sarah-childs(a4f918f7-c05b-4347-b79a-186b2842ed11)/publications.html"
-  number_educ: 3
-  education1: descriptive and substantive representation
-  education2: legislative reform
-  education3: candidate selection
-
-- name: Licia Cianetti
-  photo: Cianetti.png
-  info: Leverhulme Early Career Fellow
-  email: Licia.Cianetti@rhul.ac.uk
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/licia-cianetti(eb93895b-be21-4932-88c4-5b8a727ead95)/publications.html"
-  number_educ: 3
-  education1: Central and Eastern European politics
-  education2: democratization
-  education3: local policies on multiculturalism
-
 - name: Sofia Collignon
   photo: Collignon.jpg
   info: Lecturer in Political Communication

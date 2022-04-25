@@ -7,165 +7,112 @@ permalink: /team/
 ---
 
 # Centre Members
-
-
-Jump to [staff](#staff), [PhD students](#phd-students), [alumni](#alumni), [administrative support](#administrative-support).
+{: .page-title }
 
 ## Staff
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{: .member-type }
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
+  {% for member in site.data.team_members %}
+    <div class="col-md-4 member-card">
+      <div class="row">
+        <div class="col-auto col-left">
+          <div class="member-card__img-wraper">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" />
+          </div>
+          <div class="member-card__social">
+            {%- if member.pure -%}
+              <a href="{{ member.pure }}" class="icon-publications"></a> 
+            {% endif %}
+            {%- if member.email -%}
+              <a href="mailto:{{ member.email }}" class="icon-email"></a>
+            {% endif %}  
+            {%- if member.twitter -%}
+              <a href="http://www.twitter.com/{{ member.twitter }}" class="icon-megaphone"></a> 
+            {% endif %}
+          </div>
+        </div>
+        <div class="col col-right">
+          <h4 class="member-card__name">{{ member.name }}</h4>
+          <p class="member-card__info">{{ member.info }}</p>
+          <ul>
+            {% if member.number_educ == 1 %}
+              <li>{{ member.education1 | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            {% endif %}
+            {% if member.number_educ == 2 %}
+              <li>{{ member.education1 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education2 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+            {% endif %}
+            {% if member.number_educ == 3 %}
+              <li>{{ member.education1 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education2 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education3 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+            {% endif %}
+            {% if member.number_educ == 4 %}
+              <li>{{ member.education1 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education2 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education3 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education4 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+            {% endif %}
+            {% if member.number_educ == 5 %}
+              <li>{{ member.education1 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education2 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education3 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education4 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+              <li>{{ member.education5 | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} </i> <br /><!--<br>email: <{{ member.email }}></i> -->
-  {%- if member.email -%}
-  <a href = "mailto:{{ member.email }}"><span class="glyphicon glyphicon-envelope"></span></a>
-  {% endif %}  
-  {%- if member.pure -%}
-  , <a href = "{{ member.pure }}"><span class="glyphicon glyphicon-book"></span></a> 
-  {% endif %}
-  {%- if member.twitter -%}
-  , <a href = "http://www.twitter.com/{{ member.twitter }}"><span class="glyphicon glyphicon-bullhorn"></span></a> 
-  {% endif %} 
-  {%- if member.homepage -%}
-  , <a href = "{{ member.homepage }}"><span class="glyphicon glyphicon-globe"></span></a> 
-  {% endif %}
-  
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 | markdownify }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 | markdownify  }} </li>
-  <li> {{ member.education2 | markdownify  }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 | markdownify  }} </li>
-  <li> {{ member.education2 | markdownify  }} </li>
-  <li> {{ member.education3 | markdownify  }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 | markdownify  }} </li>
-  <li> {{ member.education2 | markdownify  }} </li>
-  <li> {{ member.education3 | markdownify  }} </li>
-  <li> {{ member.education4 | markdownify  }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 | markdownify  }} </li>
-  <li> {{ member.education2 | markdownify  }} </li>
-  <li> {{ member.education3 | markdownify  }} </li>
-  <li> {{ member.education4 | markdownify  }} </li>
-  <li> {{ member.education5 | markdownify  }} </li>
-  {% endif %}
-
-  </ul>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
 
 
 
 ## PhD Students
+{: .member-type }
 
-{% assign number_printed = 0 %}
+<div class="row">
 {% for member in site.data.students %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+  <div class="col-md-4 member-card">
+    <h4 class="member-card__name">{{ member.name }}</h4>
+    <p class="member-card__info">{{ member.info }}</p>
+    <ul>
+      {% if member.number_educ == 1 %}
+        <li>{{ member.education1 }}</li>
+      {% endif %}
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+      {% if member.number_educ == 2 %}
+        <li>{{ member.education1 }}</li>
+        <li>{{ member.education2 }}</li>
+      {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} </i> <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
+      {% if member.number_educ == 3 %}
+        <li>{{ member.education1 }}</li>
+        <li>{{ member.education2 }}</li>
+        <li>{{ member.education3 }}</li>
+      {% endif %}
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+      {% if member.number_educ == 4 %}
+        <li>{{ member.education1 }}</li>
+        <li>{{ member.education2 }}</li>
+        <li>{{ member.education3 }}</li>
+        <li>{{ member.education4 }}</li>
+      {% endif %}
+    </ul>
+  </div>
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-## Alumni
-
-<div class="row">
-
-<div class="col-sm-4 clearfix">
-<h4>Staff</h4>
-{% for member in site.data.alumni_staff %}
-{{ member.name }}
-{% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>PhD students</h4>
-{% for member in site.data.alumni_phd %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-
-</div>
 
 
 ## Administrative Support
+{: .info-title }
 
 The Democracy and Elections Centre operates out of the Department of Politics, International Relations and Philosophy at Royal Holloway.
+{: .info-text }

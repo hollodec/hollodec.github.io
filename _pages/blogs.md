@@ -2,8 +2,10 @@
 layout: default
 title: Blogs
 ---
+<div markdown=1>
 
-<h1>Latest Posts</h1>
+# Latest Posts
+{: .page-title }
 
 <ul>
   {% for post in site.posts %}
@@ -13,3 +15,5 @@ title: Blogs
     </li>
   {% endfor %}
 </ul>
+
+</div>

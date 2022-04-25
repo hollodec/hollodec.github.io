@@ -6,5 +6,6 @@ permalink: /interactives/
 ---
 
 # Interactives
+{: .page-title}
 
 *To follow*

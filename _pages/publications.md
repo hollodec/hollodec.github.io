@@ -5,12 +5,16 @@ excerpt: "DEC @ RHUL -- Publications"
 sitemap: false
 permalink: /publications/
 ---
+# Publications
+{: .page-title}
 
-This page lists peer-reviewed publications written by members of the Democracy and Elections Centre over the last five years. 
+<div class="page-intro" markdown=1>
+
+##### This page lists peer-reviewed publications written by members of the Democracy and Elections Centre over the last five years.
 
 If you would like to read a publication written by a member of the centre but are unable to access a pay-walled copy, please contact the author. Authors can usually share pre-print or open access versions of their works. 
 
-# Publications
+</div>
 
 {% bibliography --query @*[year>=2017] --template {{reference}} <a href = 'http://dx.doi.org/{{entry.doi}}'>online</a> %}
 

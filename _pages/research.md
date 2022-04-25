@@ -7,10 +7,9 @@ permalink: /research/
 ---
 
 # Research
+{: .page-title}
 
-With thirteen full staff members of the centre, our research output is
-difficult to summarize -- but key parts of our research fall in to the
-following four areas:
+##### With thirteen full staff members of the centre, our research output is difficult to summarize -- but key parts of our research fall in to the following four areas:
 
  - **The voting behaviour of specific demographic groups**: there are lots of ways in which voters can be categorized, but different demographic groupings are of particular interest to us. James Sloam, Kaat Smets and Chris Prosser have all examined turnout rates amongst young people (variously defined). Oliver Heath has looked at working class voters' choice of political party. Chris Hanretty has looked at how the demographic make-up of constituencies affects public opinion in those areas.
 
