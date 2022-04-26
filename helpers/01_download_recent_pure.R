@@ -183,8 +183,12 @@ WriteBib(qux, file = "../_bibliography/publications.bib")
 ### Also write out as YAML
 ##yammeled <- bib2yml(path = "../_bibliography/publications.bib")
 bib_df <- bib2df("../_bibliography/publications.bib")
-bib_df$TITLE <- sub("{\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("{\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{\\textquotesingle}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{}", "-", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{", "", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("}", "", bib_df$TITLE, fixed = TRUE)
 
 bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     text <- paste(as.vector(unlist(x)), collapse = ", ")
