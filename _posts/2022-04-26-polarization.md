@@ -93,7 +93,7 @@ have three parties, we'd multiply one by two-thirds; if we had four
 parties, we'd multiply by three-quarters, and so on.
 
 
-![Polarization as a function of the effective number of parties in data from ParlGov](/{{ site.baseurl}}/images/2022-04-26-polarization.png)
+![Polarization as a function of the effective number of parties in data from ParlGov]({{ site.url }}/{{ site.baseurl}}/images/2022-04-26-polarization.png)
 
 *Figure showing polarization as a function of the effective number of parties in data from ParlGov. The blue line indicates the best fit to the data, while the dotted line indicates the function identified in the article*
 
