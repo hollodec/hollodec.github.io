@@ -27,6 +27,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
@@ -43,6 +44,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+      {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
@@ -59,6 +61,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+   	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
@@ -75,6 +78,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
@@ -83,7 +87,7 @@ If you would like to read a publication written by a member of the centre but ar
 <h5>2018</h5>
 <ul>
 {% for paper in site.data.biblio %}
-{% if paper.YEAR == 2019 %}
+{% if paper.YEAR == 2018 %}
 <li>
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
@@ -91,6 +95,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
