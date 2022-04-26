@@ -24,8 +24,7 @@ If you would like to read a publication written by a member of the centre but ar
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {{ paper.YEAR | round }},
-      {% if paper.VOLUME %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
@@ -41,8 +40,7 @@ If you would like to read a publication written by a member of the centre but ar
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {{ paper.YEAR | round }},
-      {% if paper.VOLUME %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
@@ -58,8 +56,7 @@ If you would like to read a publication written by a member of the centre but ar
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {{ paper.YEAR | round }},
-      {% if paper.VOLUME %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
@@ -75,8 +72,7 @@ If you would like to read a publication written by a member of the centre but ar
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {{ paper.YEAR | round }},
-      {% if paper.VOLUME %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
@@ -92,8 +88,7 @@ If you would like to read a publication written by a member of the centre but ar
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {{ paper.YEAR | round }},
-      {% if paper.VOLUME %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
