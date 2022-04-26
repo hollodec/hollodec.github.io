@@ -92,6 +92,11 @@ need to flip the correction around, and multiply by our "sample" size
 have three parties, we'd multiply one by two-thirds; if we had four
 parties, we'd multiply by three-quarters, and so on.
 
+
+![Polarization as a function of the effective number of parties in data from ParlGov](/images/2022-04-26-polarization.png)
+
+*Figure showing polarization as a function of the effective number of parties in data from ParlGov. The blue line indicates the best fit to the data, while the dotted line indicates the function identified in the article*
+
 In practice, it's not as simple as this -- there's a difference
 between the raw number of parties and the effective number of parties
 -- but across four different data-sets I show that the best guide to
