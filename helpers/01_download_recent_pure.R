@@ -11,8 +11,9 @@ library(yaml)
 library(curl)
 library(RefManageR)
 library(bibtex)
-library(ymlthis)
 library(bib2df)
+library(roadoi)
+
 ## Helper functions
 ## Get the description field
 get_description <- function(d) {
@@ -182,6 +183,9 @@ WriteBib(qux, file = "../_bibliography/publications.bib")
 ### Also write out as YAML
 ##yammeled <- bib2yml(path = "../_bibliography/publications.bib")
 bib_df <- bib2df("../_bibliography/publications.bib")
+bib_df$TITLE <- sub("{\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- sub("{\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
+
 bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     text <- paste(as.vector(unlist(x)), collapse = ", ")
     text <- gsub("{\\\"u}", "ü", text, fixed = TRUE)
@@ -196,6 +200,25 @@ bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     
     text
 }) 
+
+### Get the alternates
+res <- roadoi::oadoi_fetch(dois = bib_df$DOI,
+                           email = "chris.hanretty@rhul.ac.uk", .flatten = TRUE)
+
+res2 <- res %>%
+    group_by(doi) %>%
+    filter(is_best) %>%
+    dplyr::select(doi, UNGATED = url)
+
+bib_df <- merge(bib_df, res2,
+                by.x = "DOI",
+                by.y = "doi",
+                all.x = TRUE,
+                all.y = FALSE)
+
+bib_df <- bib_df %>%
+    dplyr::select(-BIBTEXKEY) %>% 
+    distinct()
 
 writeLines(as.yaml(bib_df, column.major = FALSE),
            con = "../_data/biblio.yml")
