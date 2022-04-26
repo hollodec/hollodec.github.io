@@ -127,7 +127,6 @@ for (i in 1:nrow(dat)) {
 
 
 ### Get DOIs from this
-
 docs <- dat %>%
     mutate(doc = map(local, read_xml)) %>%     
     mutate(doc = map(doc, get_description)) %>%
@@ -135,7 +134,9 @@ docs <- dat %>%
     mutate(doi = map(doc, get_doi)) %>%
     unnest(cols = doi)
 
-### We know have a list of dois
+### We know have a list of dois -- but are they valid?
+test <- grepl("https://doi.org/10\\.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+$", docs$doi)
+
 foo <- list()
 for (i in 1:nrow(docs)) {
 foo[[i]] <- try(GetBibEntryWithDOI(docs$doi[i]))
