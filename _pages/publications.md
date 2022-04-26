@@ -100,7 +100,3 @@ If you would like to read a publication written by a member of the centre but ar
 	  {% endif %}
 {% endfor %}
 </ul>
-
-
-<!-- {% bibliography --query @*[year>=2017] --template {{reference}} <a href = 'http://dx.doi.org/{{entry.doi}}'>online</a> %} -->
-
