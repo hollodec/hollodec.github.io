@@ -4,19 +4,19 @@ layout: textlay
 excerpt: "Work out by par score for each party if a by-election were called"
 ---
 
-<script src="/{{ site.baseurl }}/js/byelx_seat_data.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_seat_data_display.js"></script>
-<script src="/{{ site.baseurl }}/js/jquery.min.js"></script>
-<script src="/{{ site.baseurl }}/js/math.min.js"></script>
-<script src="/{{ site.baseurl }}/js/jstat.min.js"></script>
-<script src="/{{ site.baseurl }}/js/selectize.min.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_seat_data.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_fe_lab.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_fe_lib.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_fe_nat.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_fe_oth.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_phi.js"></script>
-<script src="/{{ site.baseurl }}/js/byelx_parscores.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_seat_data.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_seat_data_display.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/math.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/jstat.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/selectize.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_seat_data.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_fe_lab.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_fe_lib.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_fe_nat.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_fe_oth.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_phi.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_parscores.js"></script>
 <form onsubmit = "formhandler(); return false">
       <div class = "control-group">
       <label for = "select-seat">Choose a seat to predict:</label>
