@@ -20,7 +20,7 @@ custom_css: parscores
 <script src="{{ site.url }}{{ site.baseurl }}/js/byelx_parscores.js"></script>
 <form onsubmit = "formhandler(); return false">
       <div class = "control-group">
-	  <h5>Which seat is having a by-election?
+	  <h5>Which seat is having a by-election?</h5>
       <label for = "select-seat">Choose a seat to predict:</label>
       <select id = "select-seat" class = "demo-default" placeholder = "Select a seat...">
 	<option value =''>Select a seat by typing in the name...</option>
@@ -743,7 +743,8 @@ The polling numbers for all other parties  are outside the range of postwar poll
 </tbody>
 </table>
 </div>
-  
+
+
 #### What does this site do?
 
 This site produces forecasts of by-election results given information
