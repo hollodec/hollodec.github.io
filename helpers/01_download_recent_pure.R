@@ -12,7 +12,7 @@ library(curl)
 library(RefManageR)
 library(bibtex)
 library(ymlthis)
-
+library(bib2df)
 ## Helper functions
 ## Get the description field
 get_description <- function(d) {
@@ -97,7 +97,7 @@ team_pures <-sub(".html", ".rss", team_pures, fixed = TRUE)
 ### https://pure.royalholloway.ac.uk/portal/en/persons/nicholas-allen(f69c6bc8-318f-4578-961a-9a7d3cf07b21)/publications.rss?publicationYearsFrom=2014&peerreview=true&publicationYearsTo=2014
 
 dat <- data.frame(base = team_pures)
-dat <- merge(dat, data.frame(year = 2015:2022),
+dat <- merge(dat, data.frame(year = 2018:2022),
              all = TRUE)
 dat$url <- paste0(dat$base,
                   "?publicationYearsFrom=",
@@ -115,10 +115,13 @@ for (i in 1:nrow(dat)) {
     d <- sub("\\(.*", "", d)
     d <- paste(d, dat$year[i], sep = "_")
     d <- paste0("savefiles/", d)
-    download.file(url,
-                  method = "wget",
-                  destfile = d,
-                  extra = " --no-check-certificate")
+    if (file.exists(d)) {
+    } else {
+        download.file(url,
+                      method = "wget",
+                      destfile = d,
+                      extra = " --no-check-certificate")
+    }
     dat$local[i] <- d
 }
 
@@ -176,31 +179,23 @@ qux <- do.call("c", qux)
 WriteBib(qux, file = "../_bibliography/publications.bib")
 
 ### Also write out as YAML
-yammeled <- bib2yml(path = "../_bibliography/publications.bib")
-use_yml_file(.yml = yammeled,
-             path = "../_data/biblio.yml")
-
-### 
-## if (file.exists("pure_data.rds")) {
-##     docs <- readRDS("pure_data.rds")
-## } else {
-
+##yammeled <- bib2yml(path = "../_bibliography/publications.bib")
+bib_df <- bib2df("../_bibliography/publications.bib")
+bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
+    text <- paste(as.vector(unlist(x)), collapse = ", ")
+    text <- gsub("{\\\"u}", "ü", text, fixed = TRUE)
+    text <- gsub("\\'\\i", "í", text, fixed = TRUE)
+    text <- gsub("{", "", text, fixed = TRUE)
+    text <- gsub("}", "", text, fixed = TRUE)
+    ## if it's all caps
+    if (text == toupper(text)) {
+        ### warning("title-casing")
+        text <- tools::toTitleCase(tolower(text))
+    }
     
-##     docs <- docs %>%
-##         mutate(title = map_chr(doc, get_title),
-##                authors = map_chr(doc, get_authors),
-##                properties = map(doc, get_properties)) %>% 
-##         dplyr::select(year, title, authors, properties)
+    text
+}) 
 
-##     docs <- docs %>%
-##         mutate(authors = coalesce(authors, ""))
-    
-##     docs <- docs %>% 
-##         unnest(cols = c(properties)) %>%
-##         filter(!is.na(X1)) %>%
-##         distinct(year, title, authors, X1, X2) %>% 
-##         dcast(year + title + authors ~ X1, value.var = "X2")
-    
-##     saveRDS(docs, file = "pure_data.rds")
-## }
+writeLines(as.yaml(bib_df, column.major = FALSE),
+           con = "../_data/biblio.yml")
 
