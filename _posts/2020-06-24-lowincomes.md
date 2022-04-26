@@ -1,9 +1,13 @@
 ---
 layout: post
 author: Oliver Heath
+title: Low income voters
+excerpt_separator: <!--more-->
 ---
 
 For the first time, more people on low incomes voted for the Conservative Party than for Labour. Boris Johnson’s Conservatives are now more popular with people struggling to make ends meet than with wealthy voters.  
+
+<!--more-->
 
 Landmark new research for Joseph Rowntree Foundation (JRF) by Professor Oliver Heath from Royal Holloway and Professor Matthew Goodwin from the University of Kent, reveals the critical role low-income voters played in deciding the outcome of the 2019 general election.  
 
