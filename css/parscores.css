@@ -47,23 +47,23 @@ body {
 /* Style party columns */
 tbody>tr>:nth-child(2),thead>tr>:nth-child(2) {
     background-color: #0087dc80;
-    width: 12em;    text-align: center;
+    width: 9em;    text-align: center;
 }
 tbody>tr>:nth-child(3),thead>tr>:nth-child(3) {
     background-color: #d5000080;
-    width: 12em;
+    width: 9em;
     text-align: center;
 }
 tbody>tr>:nth-child(4),thead>tr>:nth-child(4) {
     background-color: #FDBB3080;
-    width: 12em;    text-align: center;
+    width: 9em;    text-align: center;
 }
 tbody>tr>:nth-child(5),thead>tr>:nth-child(5) {
     background-color: #3F842880;
-    width: 12em;    text-align: center;
+    width: 9em;    text-align: center;
 }
 tbody>tr>:nth-child(6),thead>tr>:nth-child(6) {
     background-color: #80808080;
-    width: 12em;    text-align: center;
+    width: 9em;    text-align: center;
 }
 .selectize-control { width: 60%; }
