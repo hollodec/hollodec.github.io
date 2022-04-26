@@ -721,7 +721,7 @@ The polling numbers for all other parties  are outside the range of postwar poll
 <table>
 <thead>
 <tr>
-<th>Quantity</th><th>Con</th><th>Lab</th><th>Lib<br />Dem</th><th>SNP/<br/>Plaid</th><th>Others</th>
+<th>Quantity</th><th>Con</th><th>Lab</th><th>Lib Dem</th><th>SNP/ Plaid</th><th>Others</th>
 </tr>
 </thead>
 <tbody>
