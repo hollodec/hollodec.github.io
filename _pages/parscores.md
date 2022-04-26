@@ -20,9 +20,10 @@ custom_css: parscores
 <script src="{{ site.url }}{{ site.baseurl }}/js/byelx_parscores.js"></script>
 <form onsubmit = "formhandler(); return false">
       <div class = "control-group">
+	  <h5>Which seat is having a by-election?
       <label for = "select-seat">Choose a seat to predict:</label>
       <select id = "select-seat" class = "demo-default" placeholder = "Select a seat...">
-	<option value =''>Select a seat...</option>
+	<option value =''>Select a seat by typing in the name...</option>
 	<option value ='1'>Aberavon</option>
 	<option value ='2'>Aberconwy</option>
 	<option value ='3'>Aberdeen North</option>
@@ -757,4 +758,4 @@ They are based on a Dirichlet regression model of by-election outcomes
 in the post-war period. The model is described in the paper by Chris
 Hanretty, "Forecasting multiparty by-elections using Dirichlet
 regression." *International Journal of Forecasting* 37, no. 4 (2021):
-1666-1676.
+1666-1676. 
