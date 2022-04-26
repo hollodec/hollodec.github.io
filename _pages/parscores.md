@@ -743,3 +743,18 @@ The polling numbers for all other parties  are outside the range of postwar poll
 </table>
 </div>
   
+#### What does this site do?
+
+This site produces forecasts of by-election results given information
+about each seat and current polling. These forecasts are described as
+"par scores" because they give information on the kind of performance
+each party might expect, even if their performance will be better or
+worse than this expectation.
+
+#### What are these numbers based on?
+
+They are based on a Dirichlet regression model of by-election outcomes
+in the post-war period. The model is described in the paper by Chris
+Hanretty, "Forecasting multiparty by-elections using Dirichlet
+regression." *International Journal of Forecasting* 37, no. 4 (2021):
+1666-1676.
