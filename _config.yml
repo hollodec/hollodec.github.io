@@ -10,8 +10,8 @@ title: The Democracy and Elections Centre @ RHUL
 email: chris.hanretty@rhul.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   The Democracy and Elections Centre at Royal Holloway brings together researchers interested in electoral behaviour and its consequences, and how elections shape public policy. Here we share some of our blog-posts, papers, and interactive visualizations.
-baseurl: "decsite/"
-url: "https://chrishanretty.github.io/"
+baseurl: "decsite"
+url: "https://chrishanretty.github.io"
 
 include:
   - .htaccess
