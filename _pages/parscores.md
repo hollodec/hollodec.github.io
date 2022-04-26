@@ -759,3 +759,13 @@ in the post-war period. The model is described in the paper by Chris
 Hanretty, "Forecasting multiparty by-elections using Dirichlet
 regression." *International Journal of Forecasting* 37, no. 4 (2021):
 1666-1676. 
+
+#### What do you mean, "could be as low as"?
+
+All models have uncertainty in them. When we say that the result could
+be as low as (say) 6%, we mean that there is a 2.5% chance that the
+true result will be *lower* than this number. Conversely, hen we say
+that the result could be as high as (say) 48%, we mean that there is a
+2.5% chance that the true result will be *higher* than this
+number. Put differently, the probability that the result will fall in
+between these two figures is 95% (if the model is right).
