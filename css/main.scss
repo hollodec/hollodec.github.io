@@ -7,7 +7,6 @@ $orange : #EB641E;
 $dark-blue : #202A30;
 
 body {
-	padding-top: 78px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -249,6 +248,28 @@ h5 {
 }
 
 #footer {
+	background-color: $dark-blue;
+	padding: 25px 0;
+	color: #fff;
+	margin-top: auto;
+	
+	p {
+		color: #fff;
+		margin-bottom: 0;
+		line-height: 22px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
+.panel-footer {
 	background-color: $dark-blue;
 	padding: 25px 0;
 	color: #fff;
