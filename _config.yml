@@ -21,18 +21,9 @@ sass:
   sass_dir: _sass
 
 plugins:
-  - jekyll-scholar
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-scholar:
-  source: ./_bibliography
-  group_by: year
-  group_order: descending
-  bibliography: publications.bib
-  style: apa-no-doi-no-issue
-  bibliography-template: bib
 
 # Conversion
 # markdown: kramdown
