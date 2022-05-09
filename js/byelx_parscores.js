@@ -117,7 +117,8 @@ function formhandler() {
     var libpollchg = libpollchg - 0.1183808;
     var natpollchg = natpollchg - 0.04469667;
     var othpollchg = othpollchg - 0.06076081;
-    
+
+
     // standardize these (don't actually need conpollchg or natpollchg)
     labpollchg = (labpollchg - 0.002496) / 0.07426;
     libpollchg = (libpollchg - 0.01137) / 0.0814;
@@ -148,13 +149,15 @@ function formhandler() {
 	alpha_lib = math.exp(alpha_lib);
 	alpha_nat = math.exp(alpha_nat);
 	alpha_oth = math.exp(alpha_oth);
+
 	
 	// Multiply by phi to get mu
-	var mu_con = phi[i-1] * alpha_con;
-	var mu_lab = phi[i-1] * alpha_lab;
-	var mu_lib = phi[i-1] * alpha_lib;
-	var mu_nat = phi[i-1] * alpha_nat;
-	var mu_oth = phi[i-1] * alpha_oth;
+	var local_phi = phi[i-1][1] + x[5] * phi[i-1][5];
+	var mu_con = local_phi * alpha_con;
+	var mu_lab = local_phi * alpha_lab;
+	var mu_lib = local_phi * alpha_lib;
+	var mu_nat = local_phi * alpha_nat;
+	var mu_oth = local_phi * alpha_oth;
 	
 	// generate the seat shares
 	var tmp = rdirichlet([mu_con,

@@ -5,7 +5,6 @@ excerpt: "Work out by par score for each party if a by-election were called"
 custom_css: parscores
 ---
 
-<script src="{{ site.url }}{{ site.baseurl }}/js/byelx_seat_data.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/byelx_seat_data_display.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/math.min.js"></script>
