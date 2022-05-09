@@ -152,7 +152,8 @@ function formhandler() {
 
 	
 	// Multiply by phi to get mu
-	var local_phi = phi[i-1][1] + x[5] * phi[i-1][5];
+	var local_phi = phi[i-1][0] + x[5] * phi[i-1][4];
+	local_phi = math.exp(local_phi);
 	var mu_con = local_phi * alpha_con;
 	var mu_lab = local_phi * alpha_lab;
 	var mu_lib = local_phi * alpha_lib;
