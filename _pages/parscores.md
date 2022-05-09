@@ -760,6 +760,20 @@ Hanretty, "Forecasting multiparty by-elections using Dirichlet
 regression." *International Journal of Forecasting* 37, no. 4 (2021):
 1666-1676. 
 
+#### What goes into these predictions?
+
+The result in the seat in the previous general election; whether or
+not there is a candidate from each party; the identity of the party in
+government; which party held the seat; turnout in the previous general
+election; whether the incumbent MP is running again; polling changes
+since the last election.
+
+#### What doesn't go into these predictions?
+
+Whether or not the previous MP resigned as a result of scandal; the
+number of "other" candidates; any other factors which might affect the
+local popularity of a party that aren't reflected in national polls.
+
 #### What do you mean, "could be as low as"?
 
 All models have uncertainty in them. When we say that the result could
