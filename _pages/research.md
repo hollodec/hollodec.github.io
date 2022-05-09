@@ -24,8 +24,8 @@ Unit newpolcom.
 Our research work also involves providing public goods to the broader
 research community through:
 
- - **national election studies**: Chris Prosser is co-Investigator on the British Election Study; Chris Hanretty is co-Investigator on the Scottish Election Study.
+ - **National election studies**: Chris Prosser is co-Investigator on the British Election Study; Chris Hanretty is co-Investigator on the Scottish Election Study.
  
- - **editorial contributions**: Oliver Heath and Kaat Smets are editors-in-chief of *Electoral Studies*, the leading journal in the subfield.
+ - **Editorial contributions**: Oliver Heath and Kaat Smets are editors-in-chief of *Electoral Studies*, the leading journal in the subfield.
 
 
