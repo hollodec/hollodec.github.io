@@ -135,12 +135,21 @@ docs <- dat %>%
     mutate(doi = map(doc, get_doi)) %>%
     unnest(cols = doi)
 
+### Filter to an example team member
+docs %>%
+    filter(grepl("benedetto", url)) %>%
+    filter(year == 2019) %>%
+    as.data.frame()
+
+which(grepl("benedetto", docs$url) & docs$year == 2019)
+
 ### We know have a list of dois -- but are they valid?
 test <- grepl("https://doi.org/10\\.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+$", docs$doi)
 
 foo <- list()
 for (i in 1:nrow(docs)) {
-foo[[i]] <- try(GetBibEntryWithDOI(docs$doi[i]))
+    foo[[i]] <- try(GetBibEntryWithDOI(docs$doi[i]))
+    Sys.sleep(1)
 }
 
 ### Just
