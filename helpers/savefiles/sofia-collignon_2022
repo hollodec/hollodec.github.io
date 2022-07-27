@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Royal Holloway, University of London: RSS Feed</title>
     <link>https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f)/publications.html?publicationYearsFrom=2022&amp;peerreview=true&amp;publicationYearsTo=2022</link>
     <description>RSS Feed</description>
+    <pubDate>Wed, 15 Jun 2022 11:09:30 GMT</pubDate>
+    <dc:date>2022-06-15T11:09:30Z</dc:date>
+    <item>
+      <title>Intertwined Fates? Members Switching between Niche and Mainstream Parties</title>
+      <link>https://pure.royalholloway.ac.uk/portal/en/publications/intertwined-fates-members-switching-between-niche-and-mainstream-parties(bfd3b6a3-3cd8-4e22-8957-8b645e4ed899).html</link>
+      <description>&lt;div style='font-size: 9px;'&gt;&lt;div class="rendering rendering_researchoutput  rendering_researchoutput_short rendering_contributiontojournal rendering_short rendering_contributiontojournal_short"&gt;&lt;h2 class="title"&gt;&lt;a rel="ContributionToJournal" href="https://pure.royalholloway.ac.uk/portal/en/publications/intertwined-fates-members-switching-between-niche-and-mainstream-parties(bfd3b6a3-3cd8-4e22-8957-8b645e4ed899).html" class="link"&gt;&lt;span&gt;Intertwined Fates? Members Switching between Niche and Mainstream Parties&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;a rel="Person" href="https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f).html" class="link person"&gt;&lt;span&gt;Collignon, S.&lt;/span&gt;&lt;/a&gt;, &lt;span class="date"&gt;11 Jun 2022&lt;/span&gt;, (E-pub ahead of print) &lt;span class="journal"&gt;In: &lt;span&gt;Party Politics.&lt;/span&gt;&lt;/span&gt;&lt;p class="type"&gt;&lt;span class="type_family"&gt;Research output&lt;span class="type_family_sep"&gt;: &lt;/span&gt;&lt;/span&gt;&lt;span class="type_classification_parent"&gt;Contribution to journal&lt;span class="type_parent_sep"&gt; › &lt;/span&gt;&lt;/span&gt;&lt;span class="type_classification"&gt;Article&lt;/span&gt;&lt;span class="type_classification"&gt;&lt;span class="type_parent_sep"&gt; › &lt;/span&gt;peer-review&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"&gt;&lt;div class="article"&gt;&lt;table class="properties"&gt;&lt;tbody&gt;&lt;tr class="language"&gt;&lt;th scope="row"&gt;Original language&lt;/th&gt;&lt;td&gt;English&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th scope="row"&gt;Journal&lt;/th&gt;&lt;td&gt;&lt;span&gt;Party Politics&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th scope="row"&gt;Early online date&lt;/th&gt;&lt;td&gt;&lt;span class="date"&gt;11 Jun 2022&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="digital_object_identifiers"&gt;&lt;th scope="row"&gt;DOIs&lt;/th&gt;&lt;td&gt;&lt;ul class="relations digital_object_identifiers"&gt;&lt;li&gt;&lt;a onclick="window.open(this.href); return false;" href="https://doi.org/10.1177/13540688221106299" class="link"&gt;&lt;span&gt;https://doi.org/10.1177/13540688221106299&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="status"&gt;&lt;th scope="row"&gt;Publication status&lt;/th&gt;&lt;td&gt;&lt;span class="prefix"&gt;E-pub ahead of print - &lt;/span&gt;&lt;span class="date"&gt;11 Jun 2022&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://pure.royalholloway.ac.uk/portal/en/publications/intertwined-fates-members-switching-between-niche-and-mainstream-parties(bfd3b6a3-3cd8-4e22-8957-8b645e4ed899).html</guid>
+      <dc:date>2022-06-11T00:00:00Z</dc:date>
+    </item>
   </channel>
 </rss>
 
