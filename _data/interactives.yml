@@ -2,3 +2,7 @@
   headline: "Create par scores for Westminster by-elections"
   image_url: "images/parscores.png"
   interactive_url: parscores.html
+- date: 2022-07-27
+  headline: "Find the most important issue in your seat"
+  image_url: "images/mii.png"
+  interactive_url: http://www.genderingelectoralpolitics.org/rh_map_form/2022-q1-issue-importance/
