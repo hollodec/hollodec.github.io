@@ -9,4 +9,5 @@ permalink: /datasets/
 {: .page-title}
 
  - Most important issue in each mainland GB Westminster constituency:
-    * [2022 Q2 release](http://www.genderingelectoralpolitics.org/wp-content/uploads/2022/07/website_issue_importance.csv)
+     * [2022 Q3 release](http://www.genderingelectoralpolitics.org/wp-content/uploads/2022/10/website_issue_importance.csv)
+     * [2022 Q2 release](http://www.genderingelectoralpolitics.org/wp-content/uploads/2022/07/website_issue_importance.csv)
