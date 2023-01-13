@@ -18,3 +18,25 @@
   education1: Central and Eastern European politics
   education2: democratization
   education3: local policies on multiculturalism
+
+- name: Sofia Collignon
+  photo: Collignon.jpg
+  info: Lecturer in Political Communication
+  email: Sofia.Collignon@rhul.ac.uk
+  twitter: SofiaColMar
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f)/publications.html"
+  number_educ: 3
+  education1: campaign styles
+  education2: local parties
+  education3: candidate selection
+
+- name: Dishil Shrimankar
+  photo: Shrimankar.jpg
+  info: Post-Doctoral Research Fellow
+  email: dishil.shrimankar@rhul.ac.uk
+  twitter: Dishil91
+  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/dishil-shrimankar(b9769b7c-5514-465e-b9d5-ec737166f8f6).html"
+  number_educ: 3
+  education1: local parties
+  education2: candidate selection
+  education3: Indian electoral politics

@@ -20,17 +20,6 @@
   education2: Social democracy
   education3: Comparative European politics
 
-- name: Sofia Collignon
-  photo: Collignon.jpg
-  info: Lecturer in Political Communication
-  email: Sofia.Collignon@rhul.ac.uk
-  twitter: SofiaColMar
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f)/publications.html"
-  number_educ: 3
-  education1: campaign styles
-  education2: local parties
-  education3: candidate selection
-
 - name: Ursula Hackett
   photo: Hackett.jpg
   info: Senior Lecturer in Politics
@@ -78,16 +67,17 @@
   education2: electoral participation
   education3: political psychology
 
-- name: Dishil Shrimankar
-  photo: Shrimankar.jpg
-  info: Post-Doctoral Research Fellow
-  email: dishil.shrimankar@rhul.ac.uk
-  twitter: Dishil91
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/dishil-shrimankar(b9769b7c-5514-465e-b9d5-ec737166f8f6).html"
+- name: Laura Serra
+  photo: Serra.jpg
+  info: Lecturer in Politics and Criminology
+  email: laura.serra@rhul.ac.uk
+  homepage: https://pure.royalholloway.ac.uk/en/persons/laura-serra-2
+  twitter: Laura__Serra
+  pure: "https://pure.royalholloway.ac.uk/en/persons/laura-serra-2"
   number_educ: 3
-  education1: local parties
-  education2: candidate selection
-  education3: Indian electoral politics
+  education1: political generations
+  education2: attitude change
+  education3: voting behaviour
 
 - name: James Sloam
   photo: Sloam.jpg
