@@ -90,6 +90,15 @@
   education2: attitude change
   education3: voting behaviour
 
+- name: Miriam Sorace
+  photo: Sorace.jpg
+  info: Lecturer in Public Opinion
+  email: miriam.sorace@rhul.ac.uk
+  number_educ: 3
+  education1: public opinion
+  education2: quantitative research methods
+  education3: European political behaviour
+
 - name: James Sloam
   photo: Sloam.jpg
   info: Professor of Politics
