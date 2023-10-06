@@ -16,6 +16,25 @@ If you would like to read a publication written by a member of the centre but ar
 
 </div>
 
+<h5>2023</h5>
+<ul>
+{% for paper in site.data.biblio %}
+{% if paper.YEAR == 2023 %}
+<li>
+      {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}",
+      <em>{{ paper.JOURNAL }}</em>,
+      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {{ paper.PAGES }}.
+      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
+	  </li>
+{% endif %}
+{% endfor %}
+</ul>
+
+
+
 <h5>2022</h5>
 <ul>
 {% for paper in site.data.biblio %}

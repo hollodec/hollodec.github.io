@@ -1,6 +1,7 @@
+
 ###
 ### Purpose of this script: get recent publications from DEC members from PURE
-###
+### Revision after PURE formatting changed
 
 library(xml2)
 library(rvest)
@@ -14,184 +15,48 @@ library(bibtex)
 library(bib2df)
 library(roadoi)
 
-## Helper functions
-## Get the description field
-get_description <- function(d) {
-    sel <- "(//description)[position() > 1]//text()"
-    d %>%
-        xml_nodes(xpath = sel) %>%
-        xml_text()
-}
+### Programmatically
+### Read in the YAML
+### Just get the PURE URL
+here::i_am("helpers/02_download_pure.R")
 
-get_doi <- function(d) {
-    sel <- "//a[@href]"
-    rv <- d %>%
-        read_html() %>% 
-        html_nodes(xpath = sel) %>%
-        html_attr("href")
-    rv <- rv[grep("doi.org", rv)]
-    rv
-}
-
-get_title <- function(d) {
-    d %>%
-        read_html() %>%
-        html_node(xpath = "//h2[@class = 'title']") %>%
-        html_text()
-}
-
-get_properties <- function(d) {
-    d <- d %>%
-        read_html() %>%
-        html_node(xpath = "(//table[@class = 'properties'])")
-    if (inherits(d, "xml_missing")) {
-        return(data.frame(X1 = NA, X2 = NA))
-    } else {
-        return(d %>%
-               html_table())
-    }
-}
-
-get_authors <- function(d) {
-
-    retval <- d %>%
-        read_html() %>%
-        html_node(xpath = "//h2[@class = 'title']/following-sibling::text()[1]") %>%
-        html_text()
-    retval <- gsub("^, ", "", retval)
-    retval <- gsub(" & $", "", retval)
-    retval <- gsub("^ & ", "", retval)
-    retval <- str_trim(retval)
-    retval[which(retval == "")] <- NA
-    retval
-}
-
-
-get_authors <- function(d) {
-
-    retval <- d %>%
-        read_html() %>%
-        html_node(xpath = "//a[@rel = 'Person']") %>%
-        html_text()
-    retval <- gsub("^, ", "", retval)
-    retval <- gsub(" & $", "", retval)
-    retval <- gsub("^ & ", "", retval)
-    retval <- str_trim(retval)
-    retval[which(retval == "")] <- NA
-    retval
-}
-
-
-### Read in the YAML from team_members.yml
-team_members <- read_yaml("../_data/team_members.yml")
+team_members <- read_yaml(here::here("_data", "team_members.yml"))
 
 team_pures <- lapply(team_members, pluck, "pure")
 team_pures <- unlist(team_pures)
 
-team_pures <-sub(".html", ".rss", team_pures, fixed = TRUE)
-### We have something of the form
-
-### https://pure.royalholloway.ac.uk/portal/en/persons/nicholas-allen(f69c6bc8-318f-4578-961a-9a7d3cf07b21)/publications.html?publicationYearsFrom=2014&publicationYearsTo=2014&peerreview=true
-
-### We want something of the form
-
-### https://pure.royalholloway.ac.uk/portal/en/persons/nicholas-allen(f69c6bc8-318f-4578-961a-9a7d3cf07b21)/publications.rss?publicationYearsFrom=2014&peerreview=true&publicationYearsTo=2014
-
-dat <- data.frame(base = team_pures)
-dat <- merge(dat, data.frame(year = 2018:2022),
-             all = TRUE)
-dat$url <- paste0(dat$base,
-                  "?publicationYearsFrom=",
-                  dat$year,
-                  "&publicationYearsTo=",
-                  dat$year,
-                  "&peerreview=true")
-
-### We have to download these (without checking certificates)
-### using wget
-dat$local <- ""
-for (i in 1:nrow(dat)) {
-    url <- dat$url[i]
-    d <- sub(".*persons/", "", url)
-    d <- sub("\\(.*", "", d)
-    d <- paste(d, dat$year[i], sep = "_")
-    d <- paste0("savefiles/", d)
-    if (file.exists(d)) {
-    } else {
-        download.file(url,
-                      method = "wget",
-                      destfile = d,
-                      extra = " --no-check-certificate")
-    }
-    dat$local[i] <- d
+get_items <- function(url) {
+    page <- read_html(paste0(url, "/publications/?format=rss"))
+    sel <- "//item/guid"
+    links <- html_elements(page, xpath = sel) |> html_text()
+    return(links)
 }
 
+items <- lapply(team_pures, get_items)
 
-### Get DOIs from this
-docs <- dat %>%
-    mutate(doc = map(local, read_xml)) %>%     
-    mutate(doc = map(doc, get_description)) %>%
-    unnest(cols = doc) %>%
-    mutate(doi = map(doc, get_doi)) %>%
-    unnest(cols = doi)
+### Get
+###
+cat("",
+    file = here::here("_bibliography", "publications.bib"),
+    append = FALSE)
 
-### Filter to an example team member
-docs %>%
-    filter(grepl("benedetto", url)) %>%
-    filter(year == 2019) %>%
-    as.data.frame()
-
-which(grepl("benedetto", docs$url) & docs$year == 2019)
-
-### We know have a list of dois -- but are they valid?
-test <- grepl("https://doi.org/10\\.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+$", docs$doi)
-
-foo <- list()
-for (i in 1:nrow(docs)) {
-    foo[[i]] <- try(GetBibEntryWithDOI(docs$doi[i]))
-    Sys.sleep(1)
+get_bibtex <- function(url) {
+    page <- read_html(url)
+    container <- html_elements(page, xpath = "//div[@id='cite-BIBTEX']/div")
+    divs <- html_elements(container, xpath = "./div")
+    text <- unlist(lapply(divs, html_text))
+    text <- paste(text, collapse = "\n")
+    text <- paste(text, "}\n\n")
+    cat(text,
+        file = here::here("_bibliography", "publications.bib"),
+        append = TRUE)
+    return(TRUE)
 }
 
-### Just
-bar <- foo[unlist(lapply(foo, function(x)inherits(x, "bibentry")))]
-baz <- do.call("c", bar)
-### Amend these to remove some html style shit
-tidy_entries <- function(bibentry) {
-    ### JOURNAL HANDLING
-    ### Ampersands in journal titles
-    journal <- bibentry$journal
-    journal <- sub("{\\&}amp$\\mathsemicolon$",
-                   "&",
-                   journal,
-                   fixed = TRUE)
-    bibentry$journal <- journal
+bibtex <- lapply(items, function(x) lapply(x, get_bibtex))
 
-### TITLE HANDLING
-    title <- bibentry$title
 
-### HTML italics
-    title <- sub("$\\less$i$\\greater$", "", title, fixed = TRUE)
-    title <- sub("$\\less$/i$\\greater$", "", title, fixed = TRUE)
-
-### Small caps
-    title <- sub("$\\less$scp$\\greater$", "", title, fixed = TRUE)
-    title <- sub("$\\less$/scp$\\greater$", "", title, fixed = TRUE)
-### LaTex en dash?
-    title <- sub("\\textendash", "", title, fixed = TRUE)
-
-    bibentry$title <- title
-        
-    as.BibEntry(bibentry)
-
-}
-
-qux <- lapply(baz, tidy_entries)
-qux <- do.call("c", qux)
-WriteBib(qux, file = "../_bibliography/publications.bib")
-
-### Also write out as YAML
-##yammeled <- bib2yml(path = "../_bibliography/publications.bib")
-bib_df <- bib2df("../_bibliography/publications.bib")
+bib_df <- bib2df(file = here::here("_bibliography", "publications.bib"))
 bib_df$TITLE <- sub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
 bib_df$TITLE <- sub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
 bib_df$TITLE <- sub("{\\textquotesingle}", "'", bib_df$TITLE, fixed = TRUE)
@@ -215,24 +80,25 @@ bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
 }) 
 
 ### Get the alternates
-res <- roadoi::oadoi_fetch(dois = bib_df$DOI,
-                           email = "chris.hanretty@rhul.ac.uk", .flatten = TRUE)
+## res <- roadoi::oadoi_fetch(dois = bib_df$DOI,
+##                            email = "chris.hanretty@rhul.ac.uk", .flatten = TRUE)
 
-res2 <- res %>%
-    group_by(doi) %>%
-    filter(is_best) %>%
-    dplyr::select(doi, UNGATED = url)
+## res2 <- res %>%
+##     group_by(doi) %>%
+##     filter(is_best) %>%
+##     dplyr::select(doi, UNGATED = url)
 
-bib_df <- merge(bib_df, res2,
-                by.x = "DOI",
-                by.y = "doi",
-                all.x = TRUE,
-                all.y = FALSE)
+## bib_df <- merge(bib_df, res2,
+##                 by.x = "DOI",
+##                 by.y = "doi",
+##                 all.x = TRUE,
+##                 all.y = FALSE)
 
 bib_df <- bib_df %>%
     dplyr::select(-BIBTEXKEY) %>% 
     distinct()
 
 writeLines(as.yaml(bib_df, column.major = FALSE),
-           con = "../_data/biblio.yml")
+           con = here::here("_data", "biblio.yml"))
+
 
