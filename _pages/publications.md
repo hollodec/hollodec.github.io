@@ -27,7 +27,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 {% endif %}
 {% endfor %}
@@ -46,7 +45,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 {% endif %}
 {% endfor %}
@@ -80,8 +78,7 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-   	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
-	  </li>
+   	  </li>
 	  {% endif %}
 {% endfor %}
 </ul>
@@ -97,7 +94,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}
@@ -114,7 +110,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
 	  {% endif %}
 {% endfor %}

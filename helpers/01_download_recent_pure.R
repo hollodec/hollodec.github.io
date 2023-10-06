@@ -18,7 +18,7 @@ library(roadoi)
 ### Programmatically
 ### Read in the YAML
 ### Just get the PURE URL
-here::i_am("helpers/02_download_pure.R")
+here::i_am("helpers/01_download_recent_pure.R")
 
 team_members <- read_yaml(here::here("_data", "team_members.yml"))
 
@@ -57,12 +57,16 @@ bibtex <- lapply(items, function(x) lapply(x, get_bibtex))
 
 
 bib_df <- bib2df(file = here::here("_bibliography", "publications.bib"))
-bib_df$TITLE <- sub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("{\\textquotesingle}", "'", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("{}", "-", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("{", "", bib_df$TITLE, fixed = TRUE)
-bib_df$TITLE <- sub("}", "", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{\\textquotesingle}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{\\textquoteright}", "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub('{\"}', "'", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("textquoteleft}", "", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("textquoteleft}", "", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{}", "-", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("{", "", bib_df$TITLE, fixed = TRUE)
+bib_df$TITLE <- gsub("}", "", bib_df$TITLE, fixed = TRUE)
 
 bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     text <- paste(as.vector(unlist(x)), collapse = ", ")
@@ -79,6 +83,8 @@ bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     text
 }) 
 
+bib_df$PAGES <- coalesce(bib_df$PAGES, "")
+bib_df$VOLUME <- coalesce(bib_df$VOLUME, "")
 ### Get the alternates
 ## res <- roadoi::oadoi_fetch(dois = bib_df$DOI,
 ##                            email = "chris.hanretty@rhul.ac.uk", .flatten = TRUE)

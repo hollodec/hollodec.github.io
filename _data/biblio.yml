@@ -23,7 +23,7 @@
   TITLE: From gender equity to gendered assignments? Women and cabinet committees
     in Canada and the United Kingdom
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2023.0
   DAY: '3'
   DOI: 10.1017/gov.2023.18
@@ -56,7 +56,7 @@
   SERIES: .na.character
   TITLE: Cabinet government
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: .na.character
   DOI: .na.character
@@ -117,14 +117,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Why was there a Hard Brexit? The British Legislative Party System, Divided
     Majorities and the Incentives for Factionalism
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: '5'
   DOI: 10.1177/00323217221076353
@@ -151,13 +151,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Breaking the Deadlock: Britain at the Polls, 2019'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: .na.character
   DOI: .na.character
@@ -255,7 +255,7 @@
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Objectivity and falsehood: Assessing measures of positional influence with
-    members of David Cameron\textquoterights cabinets'
+    members of David Cameron''s cabinets'
   TYPE: .na.character
   VOLUME: '22'
   YEAR: 2020.0
@@ -289,9 +289,9 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Worth the paper they\textquoterightre written on: party manifestos'
+  TITLE: 'Worth the paper they''re written on: party manifestos'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: .na.character
   DOI: .na.character
@@ -325,7 +325,7 @@
   TITLE: 'Ideas, Institutions and the Politicians of Our Governments: Anthony King
     as a Student of Liberal Democracy'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: .na.character
   DOI: .na.character
@@ -444,8 +444,7 @@
   PUBLISHER: Palgrave Macmillan Ltd.
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftBrexit means Brexit\textquoteright}: Theresa May and post-referendum
-    British politics'
+  TITLE: 'Brexit means Brexit'': Theresa May and post-referendum British politics'
   TYPE: .na.character
   VOLUME: '13'
   YEAR: 2018.0
@@ -474,13 +473,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'None Past the Post: Britain at the Polls 2017'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: .na.character
   DOI: .na.character
@@ -548,7 +547,7 @@
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Finding a niche? Challenger parties and issue emphasis in the 2015 televised
-    leaders\textquoteright debates
+    leaders' debates
   TYPE: .na.character
   VOLUME: '19'
   YEAR: 2017.0
@@ -731,7 +730,7 @@
   SERIES: .na.character
   TITLE: 'Worth the paper they''re written on: party manifestos'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -803,8 +802,8 @@
   PUBLISHER: Oxford University Press
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftPublic Foreplay\textquoteright} or Programmes for Government?:
-    The Content of the 2015 Party Manifestos'
+  TITLE: 'Public Foreplay'' or Programmes for Government?: The Content of the 2015
+    Party Manifestos'
   TYPE: .na.character
   VOLUME: '70'
   YEAR: 2017.0
@@ -846,10 +845,10 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftA codified constitution is a massive deal\textquoteright}:
-    young people, deliberative democracy and A new Magna Carta?'
+  TITLE: 'A codified constitution is a massive deal'': young people, deliberative
+    democracy and A new Magna Carta?'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: '8'
   DOI: .na.character
@@ -892,8 +891,8 @@
   PUBLISHER: SAGE Publications Ltd
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: textquoteleftIn it together\textquoteright}? The political consequences of
-    perceived discommunions of interest in British politics
+  TITLE: In it together'? The political consequences of perceived discommunions of
+    interest in British politics
   TYPE: .na.character
   VOLUME: '2'
   YEAR: 2015.0
@@ -977,10 +976,10 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Tempests and Teacups: Politicians\textquoteright Reputations in the Wake
-    of the Expenses Scandal'
+  TITLE: 'Tempests and Teacups: Politicians'' Reputations in the Wake of the Expenses
+    Scandal'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2014.0
   DAY: .na.character
   DOI: 10.1057/9781137034557_7
@@ -1101,8 +1100,8 @@
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'No Sex Scandals Please, We\textquoterightre French: French Attitudes Towards
-    Politicians{\textquoteright} Public and Private Conduct'
+  TITLE: 'No Sex Scandals Please, We''re French: French Attitudes Towards Politicians''
+    Public and Private Conduct'
   TYPE: .na.character
   VOLUME: '37'
   YEAR: 2014.0
@@ -1164,14 +1163,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Ethics and Integrity in British Politics: How Citizens Judge their Politicians\textquoteright
+  TITLE: 'Ethics and Integrity in British Politics: How Citizens Judge their Politicians''
     Conduct and Why it Matters'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: '2'
   DOI: 10.1017/CBO9781107279568
@@ -1499,13 +1498,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Britain at the Polls 2010
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2011.0
   DAY: .na.character
   DOI: .na.character
@@ -1704,7 +1703,7 @@
   SERIES: .na.character
   TITLE: 'A Restless Electorate: Stirrings in the Political System'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2005.0
   DAY: .na.character
   DOI: .na.character
@@ -1837,7 +1836,7 @@
   SERIES: .na.character
   TITLE: Euroscepticism in the EU
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: '23'
   DOI: .na.character
@@ -1865,14 +1864,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The Next Revision of the Financial Regulation and the EU Budget Galaxy:
     How to safeguard and strengthen budgetary principles and parliamentary oversight'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: .na.character
   DOI: .na.character
@@ -1946,7 +1945,7 @@
   SERIES: .na.character
   TITLE: A Package Deal to Exit From Net Balances in the EU Budget
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '30'
   DOI: 10.2870/750252
@@ -2027,7 +2026,7 @@
   TITLE: Ensuring the accountability of the European Fund for Strategic Investments
     (EFSI)
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '19'
   DOI: .na.character
@@ -2054,13 +2053,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The European Parliament as a budgetary extractor since the Lisbon Treaty
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '16'
   DOI: .na.character
@@ -2129,14 +2128,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: Strategies to overcome the \textquoteleftjuste retour{\textquoteright} perspective
-    on the EU budget
+  TITLE: Strategies to overcome the \juste retour' perspective on the EU budget
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '19'
   DOI: .na.character
@@ -2183,13 +2181,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: European Parliament
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: A new package for finance and expenditure in the EU budget
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: .na.character
@@ -2245,13 +2243,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Institutionalised Consensus in Europe's Parliament
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2005.0
   DAY: .na.character
   DOI: .na.character
@@ -2307,7 +2305,7 @@
   SERIES: .na.character
   TITLE: Five Years with Juncker
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '3'
   DOI: .na.character
@@ -2341,13 +2339,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The History of the EU Budget
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: '24'
   DOI: .na.character
@@ -2431,7 +2429,7 @@
   SERIES: .na.character
   TITLE: The 2013 MFF agreement and how to secure improvements
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: '23'
   DOI: .na.character
@@ -2458,13 +2456,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: How the EU budget has developed and changed in the last 10 years
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: '6'
   DOI: .na.character
@@ -2498,13 +2496,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Democratic accountability of the Council''s budget: Council executive powers'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: '15'
   DOI: .na.character
@@ -2540,8 +2538,8 @@
   PUBLISHER: Springer
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: Institutions and the route to reform of the European Union\textquoterights
-    budget revenue, 1970-2017
+  TITLE: Institutions and the route to reform of the European Union's budget revenue,
+    1970-2017
   TYPE: .na.character
   VOLUME: '44'
   YEAR: 2017.0
@@ -2582,7 +2580,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Centre for European Policy Studies
   SCHOOL: .na.character
   SERIES: .na.character
@@ -2590,7 +2588,7 @@
     EU Budget: Expertise Commissioned by the European Commission on behalf of the
     High Level Group on Own Resources'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: '13'
   DOI: .na.character
@@ -2661,14 +2659,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Swedish Institute for European Policy Studies
   SCHOOL: .na.character
   SERIES: European Policy Analysis
   TITLE: 'The Balance of Power over the EU Budget: European Expenditure since the
     Lisbon Treaty'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: .na.character
   DOI: .na.character
@@ -2704,13 +2702,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Great Britain
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2014.0
   DAY: .na.character
   DOI: .na.character
@@ -2781,13 +2779,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'European Union Budget Reform: Institutions, policy and economic crisis'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: .na.character
@@ -2820,7 +2818,7 @@
   SERIES: .na.character
   TITLE: The European Parliament
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -2854,7 +2852,7 @@
   SERIES: .na.character
   TITLE: EU Constitutionalisation and the European Parliament
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -3057,7 +3055,7 @@
   TITLE: 'Historical Euroscepticism Compared: The Case of the French and Italian Communist
     Parties in the Cold War'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2009.0
   DAY: .na.character
   DOI: .na.character
@@ -3091,7 +3089,7 @@
   SERIES: .na.character
   TITLE: Explaining the Failure of Euroscepticism in the European Parliament
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2008.0
   DAY: .na.character
   DOI: .na.character
@@ -3118,13 +3116,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The United Kingdom: Position Taking the Protection of Red Lines'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2006.0
   DAY: .na.character
   DOI: .na.character
@@ -3151,13 +3149,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Slovenia: Consensus, Integration and the Protection of Identity'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2006.0
   DAY: .na.character
   DOI: .na.character
@@ -3184,13 +3182,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The European Parliament: Consensus and Coordination for Enhanced Powers'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2006.0
   DAY: .na.character
   DOI: .na.character
@@ -3217,13 +3215,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'America''s Voucher Politics: How Elites Learned to Hide the State'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: 10.1017/9781108868594
@@ -3263,7 +3261,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Taylor and Francis Ltd.
   SCHOOL: .na.character
   SERIES: .na.character
@@ -3389,7 +3387,7 @@
   PUBLISHER: Taylor and Francis Ltd.
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Trump\textquoterights 100 Days: introduction'
+  TITLE: 'Trump''s 100 Days: introduction'
   TYPE: .na.character
   VOLUME: '5'
   YEAR: 2017.0
@@ -3462,13 +3460,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Offers and Throffers: Education Policy under Obama'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -3544,8 +3542,8 @@
   PUBLISHER: Cambridge University Press
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The Exit-Voice Choice: Religious Divides, Public Aid and America\textquoterights
-    Private Schools'
+  TITLE: 'The Exit-Voice Choice: Religious Divides, Public Aid and America''s Private
+    Schools'
   TYPE: .na.character
   VOLUME: '9'
   YEAR: 2016.0
@@ -3771,13 +3769,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Simulating party shares
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2023.0
   DAY: '11'
   DOI: 10.1017/pan.2023.13
@@ -3804,14 +3802,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The effect of employment on attendance: a response to \textquoteleftIdentifying
-    and understanding the drivers of student engagement{\textquoteright'
+  TITLE: 'The effect of employment on attendance: a response to \Identifying and understanding
+    the drivers of student engagement\textquoteright'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2023.0
   DAY: '12'
   DOI: 10.1177/02633957221148067
@@ -3844,13 +3842,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Party system polarization and the effective number of parties
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: .na.character
   DOI: 10.1016/j.electstud.2022.102459
@@ -3889,14 +3887,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Members of Parliament are minimally accountable for their issue stances (and
     they know it)
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '8'
   DOI: 10.1017/S0003055421000514
@@ -3968,13 +3966,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'A court of specialists: judicial behavior on the UK Supreme Court'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: .na.character
@@ -4012,7 +4010,7 @@
   TITLE: 'The Government Deference Dimension of Judicial Decision Making: Evidence
     from the Supreme Court of Norway'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '29'
   DOI: 10.1111/1467-9477.12176
@@ -4046,7 +4044,7 @@
   TITLE: An Introduction to Multilevel Regression and Post-Stratification for Estimating
     Constituency Opinion
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: '26'
   DOI: 10.1177/1478929919864773
@@ -4077,13 +4075,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'A Court of Specialists: Judicial Behaviour on the UK Supreme Court'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '24'
   DOI: 10.1093/oso/9780197509234.001.0001
@@ -4365,13 +4363,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The Italian media between market and politics
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -4464,13 +4462,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The troubled early years of the Partito Democratico
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -4497,13 +4495,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The EU issue space, party competition and news coverage of EP elections
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -4530,7 +4528,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Wiley-Blackwell
   SCHOOL: .na.character
   SERIES: .na.character
@@ -4563,13 +4561,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Italian Politics: The Year of the Bulldozer'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: .na.character
   DOI: 10.3167/ip.2015.300103
@@ -4749,7 +4747,7 @@
   TITLE: Comparing Strategies for Estimating Constituency Opinion from National Survey
     Samples
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: '17'
   DOI: 10.1017/psrm.2015.79
@@ -4815,7 +4813,7 @@
   SERIES: .na.character
   TITLE: 'Political Brands: Can Parties Be Distinguished by their Online Brand Personality?'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: '18'
   DOI: 10.1080/15377857.2015.1022631
@@ -5276,13 +5274,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Democracy and Health in India: Is Health an Electoral Priority?'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2023.0
   DAY: .na.character
   DOI: .na.character
@@ -5315,7 +5313,7 @@
   SERIES: .na.character
   TITLE: Why So Little Strategic Voting in India?
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: '13'
   DOI: 10.1017/S0003055422000259
@@ -5352,14 +5350,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Fueling the populist divide: nativist and cosmopolitan preferences for representation
     at the elite and mass level'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '12'
   DOI: 10.1007/s11109-021-09743-5
@@ -5400,13 +5398,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Low-income voters, the 2019 General Election and the future of British politics
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: .na.character
@@ -5439,7 +5437,7 @@
   SERIES: .na.character
   TITLE: Communal realignment and support for the BJP, 2009–2019
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '23'
   DOI: 10.1080/09584935.2020.1765986
@@ -5472,7 +5470,7 @@
   SERIES: .na.character
   TITLE: Brexit, the 2019 General Election and the Realignment of British Politics
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '19'
   DOI: 10.1111/1467-923X.12815
@@ -5505,7 +5503,7 @@
   SERIES: .na.character
   TITLE: Policy Polarization, Income Inequality and Turnout
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '27'
   DOI: 10.1177/0032321720906581
@@ -5536,10 +5534,9 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftThe majority has spoken\textquoteright}: performing referenda
-    at the National Theatre'
+  TITLE: 'The majority has spoken'': performing referenda at the National Theatre'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: '12'
   DOI: 10.1080/14682761.2019.1676510
@@ -5573,7 +5570,7 @@
   TITLE: 'Resurgent Remain and a Rebooted Revolt on the Right: Exploring the 2019
     European Parliament Elections in the United Kingdom'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: '9'
   DOI: 10.1111/1467-923X.12736
@@ -5600,13 +5597,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Low-income voters in UK general elections, 1987-2017
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: .na.character
   DOI: .na.character
@@ -5678,13 +5675,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Brexit, general election and Indyref: the role of low-income voters in Scotland'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: .na.character
   DOI: .na.character
@@ -5711,13 +5708,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'UK 2017 General Election vote examined: income, poverty and Brexit'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: .na.character
   DOI: .na.character
@@ -5928,13 +5925,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Brexit vote explained: poverty, low skills, and lack of opportunity'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -5962,13 +5959,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'A growing class divide: MPs and voters'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -5995,13 +5992,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Oxford University Press
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Political Research: Methods and Practical Skills'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -6028,7 +6025,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -6199,8 +6196,8 @@
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The BJP\textquoterights return to power: mobilisation, conversion and vote
-    swing in the 2014 Indian elections'
+  TITLE: 'The BJP''s return to power: mobilisation, conversion and vote swing in the
+    2014 Indian elections'
   TYPE: .na.character
   VOLUME: '23'
   YEAR: 2015.0
@@ -6404,14 +6401,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Political Cooperation And Distrust: Identity Politics and Yadav-Muslim Relations,
     1999–2009'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2014.0
   DAY: .na.character
   DOI: .na.character
@@ -6438,14 +6435,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The Politics of Entitlement: Affirmative action and Strategic Voting in
     Uttar Pradesh, India'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2013.0
   DAY: .na.character
   DOI: .na.character
@@ -6472,7 +6469,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Economic and Political Weekly
   SCHOOL: .na.character
   SERIES: .na.character
@@ -6511,13 +6508,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Class and Religious Voting in Italy: The Rise of Policy Responsiveness'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2013.0
   DAY: .na.character
   DOI: .na.character
@@ -6591,14 +6588,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The Anatomy of the BJP\textquoterights Rise to Power: Social, Regional and
-    Political Expansion in the 1990s'
+  TITLE: 'The Anatomy of the BJP''s Rise to Power: Social, Regional and Political
+    Expansion in the 1990s'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2002.0
   DAY: .na.character
   DOI: .na.character
@@ -6659,13 +6656,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Political Research: Methods and Practical Skills'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: .na.character
@@ -6698,7 +6695,7 @@
   SERIES: .na.character
   TITLE: 'The Great Divide: Voters, Parties, MPs and Expenses'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2011.0
   DAY: .na.character
   DOI: .na.character
@@ -6731,7 +6728,7 @@
   SERIES: .na.character
   TITLE: Measuring Political Behaviour and attitudes
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -6758,14 +6755,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Oxford University Press
   SCHOOL: .na.character
   SERIES: Proceedings of the British Academy
   TITLE: 'The rise of caste politics: Party system change and voter realignment in
     India: 1962 to 2004 in India'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -6792,13 +6789,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'India: Two-Party Contests within a Multi-Party System'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2005.0
   DAY: .na.character
   DOI: .na.character
@@ -6825,7 +6822,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -6858,13 +6855,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: What it means to be a good citizen in England and Wales
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2003.0
   DAY: .na.character
   DOI: .na.character
@@ -6891,13 +6888,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Active participation in communities
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2003.0
   DAY: .na.character
   DOI: .na.character
@@ -7057,14 +7054,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Which Promises Actually Matter? Election Pledge Centrality and Promissory
     Representation
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '15'
   DOI: 10.1177/00323217211027419
@@ -7137,14 +7134,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Public Awareness of Police Accountability: Report for the Committee on Standards
     in Public Life'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: .na.character
   DOI: .na.character
@@ -7171,14 +7168,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Survey of public attitudes towards conduct in public life 2014: Report for
     the Committee on Standards in Public Life'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2015.0
   DAY: .na.character
   DOI: .na.character
@@ -7205,14 +7202,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Evidence submitted to the House of Lords Select Committee On Polling and
     Digital Media
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: .na.character
   DOI: .na.character
@@ -7239,14 +7236,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Evidence submitted to the House of Lords Select Committee on The Electoral
     Registration and Administration ACT 2013
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: .na.character
@@ -7518,7 +7515,7 @@
   TITLE: 'Horses for courses: using internet surveys for researching public opinion
     and voting behaviour'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: '1'
   DOI: 10.4324/9781315712390.ch37
@@ -7617,7 +7614,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -7787,14 +7784,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Correlation with Time Explains the Relationship between Survey Nonresponse
     and Mass Polarization
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '20'
   DOI: 10.1086/709433
@@ -7827,7 +7824,7 @@
   SERIES: .na.character
   TITLE: 'The end of the EU affair: the UK general election of 2019'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: '12'
   DOI: 10.1080/01402382.2020.1773640
@@ -7855,14 +7852,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Tuned in to public life but turned off politics? Voluntary organisations
     and political participation
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -7889,13 +7886,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Turnout for what? The (mis)measurement of electoral participation
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: .na.character
   DOI: .na.character
@@ -7923,13 +7920,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Electoral Shocks: The Volatile Voter in a Turbulent World'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: '18'
   DOI: 10.1093/oso/9780198800583.001.0001
@@ -7977,7 +7974,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -8010,14 +8007,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Young People and Environmental Activism: The Transformation of Democratic
     Politics: Introduction to Special Issue of The Journal of Youth Studies'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: '29'
   DOI: .na.character
@@ -8044,14 +8041,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Young Cosmopolitans and Environmental Politics: How Postmaterialist Values
     Inform and Shape Youth Engagement in Environmental Politics'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '22'
   DOI: 10.1080/13676261.2021.1994131
@@ -8214,13 +8211,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Youthquake 2017: The Rise of Young Cosmopolitans in Britain'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: '1'
   DOI: .na.character
@@ -8254,7 +8251,7 @@
   TITLE: 'Resources, Values, Identity: Young Cosmopolitans and the Referendum on British
     Membership of the European Union'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: '10'
   DOI: 10.1093/pa/gsy035
@@ -8347,8 +8344,8 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftYouthquake\textquoteright}: How and Why Young People Reshaped
-    the Political Landscape in 2017'
+  TITLE: 'Youthquake'': How and Why Young People Reshaped the Political Landscape
+    in 2017'
   TYPE: .na.character
   VOLUME: '9'
   YEAR: 2018.0
@@ -8386,7 +8383,7 @@
   SERIES: .na.character
   TITLE: 'Youth Political Participation in Europe: A New Participatory Landscape'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: .na.character
   DOI: .na.character
@@ -8464,10 +8461,10 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The Outraged Young"}: Young Europeans, Civic Engagement and the Social Media
+  TITLE: 'The Outraged Young'': Young Europeans, Civic Engagement and the Social Media
     in a Time of Crisis'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2014.0
   DAY: .na.character
   DOI: .na.character
@@ -8498,8 +8495,8 @@
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleft“The outraged young”: young Europeans, civic engagement and
-    the new media in a time of crisis\textquoteright'
+  TITLE: '“The outraged young”: young Europeans, civic engagement and the new media
+    in a time of crisis\textquoteright'
   TYPE: .na.character
   VOLUME: '17'
   YEAR: 2014.0
@@ -8551,8 +8548,7 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The \textquoteleftOutraged Young{\textquoteright}: How Young Europeans are
-    Reshaping the Political Landscape'
+  TITLE: 'The \Outraged Young'': How Young Europeans are Reshaping the Political Landscape'
   TYPE: .na.character
   VOLUME: '4'
   YEAR: 2013.0
@@ -8585,8 +8581,7 @@
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: '“Voice and Equality”: Young People\textquoterights Politics in the European
-    Union'
+  TITLE: '“Voice and Equality”: Young People''s Politics in the European Union'
   TYPE: .na.character
   VOLUME: '36'
   YEAR: 2013.0
@@ -8632,14 +8627,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'New Voice, Less Equal: the Civic and Political Engagement of Young People
     in the United States and Europe'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: 10.1177/0010414012453441
@@ -8678,14 +8673,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The SPD and the Debacle of the 2009 German Federal Election: An Opportunity
     for Renewal'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2010.0
   DAY: .na.character
   DOI: .na.character
@@ -8745,7 +8740,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Taylor and Francis Ltd.
   SCHOOL: .na.character
   SERIES: .na.character
@@ -8778,7 +8773,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -8815,10 +8810,10 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'textquoteleftThe Europeanisation of Social Democracy: Politics without Policy
-    and Policy without Politics\textquoteright'
+  TITLE: 'The Europeanisation of Social Democracy: Politics without Policy and Policy
+    without Politics\textquoteright'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: .na.character
@@ -8852,7 +8847,7 @@
   TITLE: 'Citizenship education in international perspective: lessons from the UK
     and overseas'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2011.0
   DAY: .na.character
   DOI: .na.character
@@ -8879,13 +8874,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The Europeanisation of the German party system
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: .na.character
@@ -8916,7 +8911,7 @@
   PUBLISHER: Oxford University Press
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: Rejuvenating Democracy? Young People and the "Big Society{"} Project
+  TITLE: Rejuvenating Democracy? Young People and the 'Big Society' Project
   TYPE: .na.character
   VOLUME: '65'
   YEAR: 2012.0
@@ -8952,7 +8947,7 @@
   TITLE: 'Citizenship, Democracy and Education in the UK: Towards a Common Framework
     for Citizenship Lessons in the Four Home Nations'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2012.0
   DAY: .na.character
   DOI: .na.character
@@ -9114,13 +9109,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: New Perspectives in German Political Studies
   TITLE: 'Germany''s Gathering Crisis: The 2005 Federal Election and the Grand Coalition'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2009.0
   DAY: .na.character
   DOI: .na.character
@@ -9148,14 +9143,14 @@
     Politics{\textquoteright
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Learning from the West: Policy Transfer and Programmatic Change in the Successor
     Parties of East Central Europe'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2005.0
   DAY: .na.character
   DOI: .na.character
@@ -9182,13 +9177,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Evidence submitted to the Youth Citizenship Commission
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2008.0
   DAY: .na.character
   DOI: .na.character
@@ -9215,13 +9210,13 @@
   NOTE: Online
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The Language of Social Democracy
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2007.0
   DAY: .na.character
   DOI: .na.character
@@ -9248,13 +9243,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Qualitative Report: United Kingdom ("Youth Participation in Democracy{"})'
+  TITLE: 'Qualitative Report: United Kingdom (''Youth Participation in Democracy'')'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2004.0
   DAY: .na.character
   DOI: .na.character
@@ -9281,13 +9276,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: The Annual Register 2003, Germany, Austria, Switzerland
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2004.0
   DAY: .na.character
   DOI: .na.character
@@ -9314,13 +9309,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Germany: President of the EU, Keeper of the Peace'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 1999.0
   DAY: .na.character
   DOI: .na.character
@@ -9619,7 +9614,7 @@
   SERIES: .na.character
   TITLE: 'Failing Successfully: European Social Democracy in the 21st Century'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2007.0
   DAY: .na.character
   DOI: .na.character
@@ -9652,7 +9647,7 @@
   SERIES: .na.character
   TITLE: 'The German Social Democratic Party: Rising Without Trace'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2004.0
   DAY: .na.character
   DOI: .na.character
@@ -9686,7 +9681,7 @@
   TITLE: Different Road Maps, Similar Paths? Social Democratic Politics in the UK
     and Germany
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2008.0
   DAY: .na.character
   DOI: .na.character
@@ -9719,7 +9714,7 @@
   SERIES: .na.character
   TITLE: Gro\ssbritannien
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2007.0
   DAY: .na.character
   DOI: .na.character
@@ -9752,7 +9747,7 @@
   SERIES: .na.character
   TITLE: 'New Labour, the Third Way and Social Democracy: An Ideological Assessment'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2009.0
   DAY: .na.character
   DOI: .na.character
@@ -9785,7 +9780,7 @@
   SERIES: .na.character
   TITLE: Age and Generation
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: .na.character
   DOI: .na.character
@@ -9812,13 +9807,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Representation at Work: Miller and Stokes go to Brussels'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2020.0
   DAY: .na.character
   DOI: .na.character
@@ -9853,7 +9848,7 @@
   TITLE: 'Aging and Politics: Age Differences in Political Behavior in Comparative
     Perspective'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: .na.character
   DOI: .na.character
@@ -9898,7 +9893,7 @@
   SERIES: .na.character
   TITLE: 'The United Kingdom: European Elections in the run-up to Brexit'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2019.0
   DAY: .na.character
   DOI: .na.character
@@ -9925,13 +9920,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Oxford University Press
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: Political Socialization and the Making of Citizens
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2017.0
   DAY: '9'
   DOI: 10.1093/oxfordhb/9780199935307.013.98
@@ -10062,13 +10057,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Meta-analysis: Why do citizens vote (or not) in national elections?'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2013.0
   DAY: .na.character
   DOI: 10.4135/978144627305014529528
@@ -10532,7 +10527,7 @@
   SERIES: .na.character
   TITLE: Nieuwe strijdpunten, nieuwe scheidslijnen
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2011.0
   DAY: .na.character
   DOI: .na.character
@@ -10565,7 +10560,7 @@
   SERIES: .na.character
   TITLE: 'De rechtspraak in de media: Drie negatieve trends'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2013.0
   DAY: .na.character
   DOI: .na.character
@@ -10596,10 +10591,10 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Contagious parties: Anti-immigration parties and their impact on other parties\textquoteright
+  TITLE: 'Contagious parties: Anti-immigration parties and their impact on other parties''
     immigration stance in contemporary Western Europe'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -10634,7 +10629,7 @@
   TITLE: 'Media visibility and framing of the European elections 2009: A media content
     analysis in 27 countries'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2016.0
   DAY: .na.character
   DOI: .na.character
@@ -10668,7 +10663,7 @@
   TITLE: 'Isolated and imitated?: Voter perceptions of reactions to anti-immigration
     parties in three countries'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: .na.character
   DOI: .na.character
@@ -10695,14 +10690,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: Who\textquoterights Afraid of Terror News? The Interplay between News Consumption
-    Patterns, Personal Experiences and Fear of Terrorism
+  TITLE: Who's Afraid of Terror News? The Interplay between News Consumption Patterns,
+    Personal Experiences and Fear of Terrorism
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2022.0
   DAY: '11'
   DOI: 10.1080/15205436.2022.2026402
@@ -10729,13 +10724,13 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'The 2017 Dutch election: How small parties campaigned more strategically'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '18'
   DOI: .na.character
@@ -10796,14 +10791,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: Are Populists Politically Intolerant? Citizens\textquoteright Populist Attitudes
-    and Tolerance of Various Political Antagonists
+  TITLE: Are Populists Politically Intolerant? Citizens' Populist Attitudes and Tolerance
+    of Various Political Antagonists
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2021.0
   DAY: '5'
   DOI: 10.1177/00323217211049299
@@ -10935,8 +10930,8 @@
   PUBLISHER: Taylor & Francis
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'Are would-be authoritarians right?: Democratic support and citizens\textquoteright
-    left-right self-placement in former left- and right- authoritarian countries'
+  TITLE: 'Are would-be authoritarians right?: Democratic support and citizens'' left-right
+    self-placement in former left- and right- authoritarian countries'
   TYPE: .na.character
   VOLUME: '28'
   YEAR: 2020.0
@@ -10965,7 +10960,7 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
@@ -11367,8 +11362,8 @@
   PUBLISHER: Routledge
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'How established parties reduce other parties\textquoteright electoral support:
-    the strategy of parroting the pariah'
+  TITLE: 'How established parties reduce other parties'' electoral support: the strategy
+    of parroting the pariah'
   TYPE: .na.character
   VOLUME: '41'
   YEAR: 2018.0
@@ -12157,14 +12152,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Pariah Parties: On the origins and electoral consequences of the ostracism
     of political parties in established democracies'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2009.0
   DAY: .na.character
   DOI: .na.character
@@ -12225,14 +12220,14 @@
   NOTE: .na.character
   NUMBER: .na.character
   ORGANIZATION: .na.character
-  PAGES: .na.character
+  PAGES: ''
   PUBLISHER: Palgrave Macmillan
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Controlling the Electoral Marketplace: How Established Parties Ward Off
     Competition'
   TYPE: .na.character
-  VOLUME: .na.character
+  VOLUME: ''
   YEAR: 2018.0
   DAY: .na.character
   DOI: 10.1007/978-3-319-58202-3
