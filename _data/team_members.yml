@@ -78,17 +78,17 @@
   education2: electoral participation
   education3: political psychology
 
-- name: Laura Serra
-  photo: Serra.jpg
-  info: Lecturer in Politics and Criminology
-  email: laura.serra@rhul.ac.uk
-  homepage: https://pure.royalholloway.ac.uk/en/persons/laura-serra-2
-  twitter: Laura__Serra
-  pure: "https://pure.royalholloway.ac.uk/en/persons/laura-serra-2"
+- name: Jennifer M. Piscopo
+  photo: Piscopo.jpg
+  info: Professor of Gender and Politics
+  email: Jennifer.Piscopo@rhul.ac.uk
+  twitter: jennpiscopo
+  homepage: https://www.jenniferpiscopo.com/
+  pure: "https://pure.royalholloway.ac.uk/en/persons/jennifer-piscopo"
   number_educ: 3
-  education1: political generations
-  education2: attitude change
-  education3: voting behaviour
+  education1: gender politics
+  education2: legislative politics
+  education3: Latin America
 
 - name: Miriam Sorace
   photo: Sorace.jpg

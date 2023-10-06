@@ -40,3 +40,16 @@
   education1: local parties
   education2: candidate selection
   education3: Indian electoral politics
+
+- name: Laura Serra
+  photo: Serra.jpg
+  info: Lecturer in Politics and Criminology
+  email: laura.serra@rhul.ac.uk
+  homepage: https://pure.royalholloway.ac.uk/en/persons/laura-serra-2
+  twitter: Laura__Serra
+  pure: "https://pure.royalholloway.ac.uk/en/persons/laura-serra-2"
+  number_educ: 3
+  education1: political generations
+  education2: attitude change
+  education3: voting behaviour
+
