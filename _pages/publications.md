@@ -38,7 +38,7 @@ If you would like to read a publication written by a member of the centre but ar
       "{{ paper.TITLE }}", in
 	  <em>{{ paper.BOOKTITLE }}</em>
 		{% endif %}
-		</li>
+</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -147,7 +147,8 @@ If you would like to read a publication written by a member of the centre but ar
       "{{ paper.TITLE }}", in
 	  <em>{{ paper.BOOKTITLE }}</em>
 		{% endif %}
-				</li>
+</li>
 {% endif %}
 {% endfor %}
 </ul>
+
