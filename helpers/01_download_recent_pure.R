@@ -7,13 +7,8 @@ library(xml2)
 library(rvest)
 library(tidyverse)
 library(purrr)
-library(reshape2)
 library(yaml)
-library(curl)
-library(RefManageR)
-library(bibtex)
 library(bib2df)
-library(roadoi)
 
 ### Programmatically
 ### Read in the YAML
@@ -57,6 +52,28 @@ bibtex <- lapply(items, function(x) lapply(x, get_bibtex))
 
 
 bib_df <- bib2df(file = here::here("_bibliography", "publications.bib"))
+
+### Handle accents
+accents <- tribble(~unicode, ~replacement,
+                   "é", "\\'{e}",
+                   "ñ", "\\~{n}",
+                   "ö", '\\"{o}',
+                   "ö", '\\"o',
+                   "ü", '\\"u',
+                   "ü", '\\"{u}',
+                   "å", "\\aa}",
+                   "í", "\\'\\i")
+require(stringi)
+
+for (i in 1:nrow(accents)) {
+    print(".")
+    for (v in c("TITLE", "AUTHOR")) {
+        bib_df[, v] <-gsub(pattern = accents$replacement[i],
+                           replacement = accents$unicode[i],
+                           bib_df[, v], fixed = TRUE)
+    }
+}
+                   
 bib_df$TITLE <- gsub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
 bib_df$TITLE <- gsub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
 bib_df$TITLE <- gsub("{\\textquotesingle}", "'", bib_df$TITLE, fixed = TRUE)
@@ -70,8 +87,6 @@ bib_df$TITLE <- gsub("}", "", bib_df$TITLE, fixed = TRUE)
 
 bib_df$AUTHOR <- sapply(bib_df$AUTHOR, function(x) {
     text <- paste(as.vector(unlist(x)), collapse = ", ")
-    text <- gsub("{\\\"u}", "ü", text, fixed = TRUE)
-    text <- gsub("\\'\\i", "í", text, fixed = TRUE)
     text <- gsub("{", "", text, fixed = TRUE)
     text <- gsub("}", "", text, fixed = TRUE)
     ## if it's all caps

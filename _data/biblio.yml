@@ -1848,7 +1848,7 @@
 - CATEGORY: BOOK
   ADDRESS: .na.character
   ANNOTE: .na.character
-  AUTHOR: Giacomo Benedetto, Iain Begg, Daina Belicka, Francesco Corti, Nu\~nez Ferrer,
+  AUTHOR: Giacomo Benedetto, Iain Begg, Daina Belicka, Francesco Corti, Nuñez Ferrer,
     Jorge, Eulalia Rubio
   BOOKTITLE: .na.character
   CHAPTER: .na.character
@@ -1910,7 +1910,7 @@
   SCHOOL: .na.character
   SERIES: .na.character
   TITLE: 'Book Review: The European Union Budget in Times of Crisis, by Kaiser, R.
-    and Prange-Gst\"ohl, H.'
+    and Prange-Gstöohl, H.'
   TYPE: .na.character
   VOLUME: '59'
   YEAR: 2021.0
@@ -3806,8 +3806,8 @@
   PUBLISHER: .na.character
   SCHOOL: .na.character
   SERIES: .na.character
-  TITLE: 'The effect of employment on attendance: a response to \Identifying and understanding
-    the drivers of student engagement\textquoteright'
+  TITLE: 'The effect of employment on attendance: a response to Identifying and understanding
+    the drivers of student engagement'
   TYPE: .na.character
   VOLUME: ''
   YEAR: 2023.0
@@ -3988,7 +3988,7 @@
 - CATEGORY: ARTICLE
   ADDRESS: .na.character
   ANNOTE: .na.character
-  AUTHOR: Skiple, Jon K\aare, Littler\'e Bentsen, Henrik, Chris Hanretty
+  AUTHOR: Skiple, Jon Kaare, Littleré Bentsen, Henrik, Chris Hanretty
   BOOKTITLE: .na.character
   CHAPTER: .na.character
   CROSSREF: .na.character
@@ -5344,7 +5344,7 @@
   - ~
   HOWPUBLISHED: .na.character
   INSTITUTION: .na.character
-  JOURNAL: POLITICAL BEHAVIOR
+  JOURNAL: Political Behavior
   KEY: .na.character
   MONTH: aug
   NOTE: .na.character
@@ -9947,7 +9947,7 @@
   - ~
   HOWPUBLISHED: .na.character
   INSTITUTION: .na.character
-  JOURNAL: POLITICAL BEHAVIOR
+  JOURNAL: Political Behavior
   KEY: .na.character
   MONTH: dec
   NOTE: .na.character
