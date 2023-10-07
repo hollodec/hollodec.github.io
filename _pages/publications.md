@@ -28,7 +28,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
 	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
       <em>{{ paper.TITLE }}</em>.
@@ -56,7 +55,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
 	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
       <em>{{ paper.TITLE }}</em>.
@@ -70,6 +68,7 @@ If you would like to read a publication written by a member of the centre but ar
 {% endif %}
 {% endfor %}
 </ul>
+
 
 <h5>2021</h5>
 <ul>
@@ -83,7 +82,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
 	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
       <em>{{ paper.TITLE }}</em>.
@@ -97,6 +95,7 @@ If you would like to read a publication written by a member of the centre but ar
 {% endif %}
 {% endfor %}
 </ul>
+
 
 <h5>2020</h5>
 <ul>
@@ -110,7 +109,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
 	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
       <em>{{ paper.TITLE }}</em>.
@@ -124,6 +122,7 @@ If you would like to read a publication written by a member of the centre but ar
 {% endif %}
 {% endfor %}
 </ul>
+
 
 <h5>2019</h5>
 <ul>
@@ -137,7 +136,6 @@ If you would like to read a publication written by a member of the centre but ar
       {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
 	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
       <em>{{ paper.TITLE }}</em>.
@@ -151,4 +149,3 @@ If you would like to read a publication written by a member of the centre but ar
 {% endif %}
 {% endfor %}
 </ul>
-
