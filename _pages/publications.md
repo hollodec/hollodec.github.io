@@ -21,17 +21,26 @@ If you would like to read a publication written by a member of the centre but ar
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2023 %}
 <li>
+	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
+	  	{% elsif paper.CATEGORY == "BOOK" %}
+      {{ paper.AUTHOR }}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
 {% endif %}
 {% endfor %}
 </ul>
-
 
 
 <h5>2022</h5>
@@ -39,13 +48,23 @@ If you would like to read a publication written by a member of the centre but ar
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2022 %}
 <li>
+	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
+	  	{% elsif paper.CATEGORY == "BOOK" %}
+      {{ paper.AUTHOR }}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
 {% endif %}
 {% endfor %}
 </ul>
@@ -55,15 +74,24 @@ If you would like to read a publication written by a member of the centre but ar
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2021 %}
 <li>
+	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-      {% if paper.UNGATED != ".na.character" %}; <a href="{{ paper.UNGATED }}">[open access]</a>{% endif %}
 	  </li>
-	  {% endif %}
+	  	{% elsif paper.CATEGORY == "BOOK" %}
+      {{ paper.AUTHOR }}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
+{% endif %}
 {% endfor %}
 </ul>
 
@@ -72,14 +100,24 @@ If you would like to read a publication written by a member of the centre but ar
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2020 %}
 <li>
+	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-   	  </li>
-	  {% endif %}
+	  </li>
+	  	{% elsif paper.CATEGORY == "BOOK" %}
+      {{ paper.AUTHOR }}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
+{% endif %}
 {% endfor %}
 </ul>
 
@@ -88,29 +126,23 @@ If you would like to read a publication written by a member of the centre but ar
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2019 %}
 <li>
+	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
       "{{ paper.TITLE }}",
       <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
       {{ paper.PAGES }}.
       <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
 	  </li>
-	  {% endif %}
-{% endfor %}
-</ul>
-
-<h5>2018</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2018 %}
-<li>
+	  	{% elsif paper.CATEGORY == "BOOK" %}
       {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != ".na.character" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  </li>
-	  {% endif %}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
+{% endif %}
 {% endfor %}
 </ul>
