@@ -48,4 +48,11 @@
   info: PHD student
   email: Arvind.Kumar.2019@live.rhul.ac.uk
   number_educ: 0
+  education1:
+  
+- name: Olaf Borghi
+  photo: rock.jpg
+  info: PHD student
+  email: olaf.borghi.2023@live.rhul.ac.uk
+  number_educ: 0
   education1: 
