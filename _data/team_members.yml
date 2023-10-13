@@ -66,6 +66,15 @@
   education2: political representation
   education3: Indian electoral politics
 
+- name: Andrew Hunter
+  photo: Hunter.jpg
+  info: Professor of Politics
+  email: andrew.hunter@rhul.ac.uk
+  number_educ: 3
+  education1: comparative politics
+  education2: political psychology
+  education3: misinformation
+
 - name: Chris Prosser
   photo: Prosser.jpg
   info: Lecturer in Politics
