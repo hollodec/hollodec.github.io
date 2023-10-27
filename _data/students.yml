@@ -8,10 +8,17 @@
 #  education3:
 #  education4:
 
-- name: Vasil Lazarov
+- name: Irene Arahal Moreno
+  photo: rock.jpg
+  info: PHD student
+  email: irene.arahalmoreno.2023@live.rhul.ac.uk
+  number_educ: 0
+  education1:
+
+- name: Diana Bartmann
   photo: rock.jpg
   info: PhD student
-  email: vasil.lazarov.2018@live.rhul.ac.uk
+  email: Diana.Bartmann.2018@live.rhul.ac.uk
   number_educ: 0
   education1:
 
@@ -22,17 +29,10 @@
   number_educ: 0
   education1:
 
-- name: Nick Hatton
+- name: Olaf Borghi
   photo: rock.jpg
-  info: PhD student
-  email: Nick.Hatton@rhul.ac.uk
-  number_educ: 0
-  education1:
-  
-- name: Diana Bartmann
-  photo: rock.jpg
-  info: PhD student
-  email: Diana.Bartmann.2018@live.rhul.ac.uk
+  info: PHD student
+  email: olaf.borghi.2023@live.rhul.ac.uk
   number_educ: 0
   education1:
   
@@ -43,6 +43,20 @@
   number_educ: 0
   education1:
 
+- name: Nick Hatton
+  photo: rock.jpg
+  info: PhD student
+  email: Nick.Hatton@rhul.ac.uk
+  number_educ: 0
+  education1:
+
+- name: Vasil Lazarov
+  photo: rock.jpg
+  info: PhD student
+  email: vasil.lazarov.2018@live.rhul.ac.uk
+  number_educ: 0
+  education1:
+
 - name: Arvind Kumar
   photo: rock.jpg
   info: PHD student
@@ -50,9 +64,3 @@
   number_educ: 0
   education1:
   
-- name: Olaf Borghi
-  photo: rock.jpg
-  info: PHD student
-  email: olaf.borghi.2023@live.rhul.ac.uk
-  number_educ: 0
-  education1: 
