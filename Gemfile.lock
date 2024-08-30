@@ -60,7 +60,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     latex-decode (0.3.2)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -91,6 +91,7 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-seo-tag
   jekyll-sitemap
+  liquid (~> 4.0.4)
   webrick (~> 1.7)
 
 BUNDLED WITH
