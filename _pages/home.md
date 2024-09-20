@@ -19,7 +19,7 @@ The Centre is home to a vibrant research community, studying and analysing democ
 
 Members of the centre are involved in a number of collaborative and funded projects, including the [British Election Study](https://www.britishelectionstudy.com/), which is co-directed by Chris Prosser.
 
-The Centre is also home to the journal [Electoral Studies](https://www.journals.elsevier.com/electoral-studies), which is edited by Oliver Heath and Kaat Smets.
+The Centre is also home to the journal [Electoral Studies](https://www.journals.elsevier.com/electoral-studies), which is edited by Oliver Heath (and formerly also by Kaat Smets).
 
 </div>
 </div>
