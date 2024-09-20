@@ -22,7 +22,7 @@
 
 - name: Giacomo Benedetto
   photo: Benedetto.jpg
-  info: Senior Lecturer in Politics
+  info: Reader in Politics
   email: Giacomo.Benedetto@rhul.ac.uk
   twitter: ggbenedetto
   pure: "https://pure.royalholloway.ac.uk/en/persons/giacomo-benedetto"
@@ -33,7 +33,7 @@
 
 - name: Ursula Hackett
   photo: Hackett.jpg
-  info: Senior Lecturer in Politics
+  info: Reader in Politics
   email: Ursula.Hackett@rhul.ac.uk
   twitter: UrsulaBHackett
   homepage: http://www.ursulahackett.com/
@@ -77,7 +77,7 @@
 
 - name: Chris Prosser
   photo: Prosser.jpg
-  info: Lecturer in Politics
+  info: Senior Lecturer in Politics
   email: chris.prosser@rhul.ac.uk
   twitter: caprosser
   homepage: https://caprosser.com/
@@ -99,15 +99,6 @@
   education2: legislative politics
   education3: Latin America
 
-- name: Miriam Sorace
-  photo: Sorace.jpg
-  info: Lecturer in Public Opinion
-  email: miriam.sorace@rhul.ac.uk
-  number_educ: 3
-  education1: public opinion
-  education2: quantitative research methods
-  education3: European political behaviour
-
 - name: James Sloam
   photo: Sloam.jpg
   info: Professor of Politics
@@ -121,7 +112,7 @@
 
 - name: Kaat Smets
   photo: Smets.jpg
-  info: Senior Lecturer in Politics (Quantitative Methods)
+  info: Reader in Politics (Quantitative Methods)
   email: kaat.smets@rhul.ac.uk
   pure: "https://pure.royalholloway.ac.uk/en/persons/kaat-smets"
   number_educ: 3

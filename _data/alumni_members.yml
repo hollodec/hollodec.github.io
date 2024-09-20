@@ -80,3 +80,12 @@
   email: Tom.Barton.2019@live.rhul.ac.uk
   number_educ: 0
   education1:
+
+- name: Miriam Sorace
+  photo: Sorace.jpg
+  info: Lecturer in Public Opinion
+  email: miriam.sorace@rhul.ac.uk
+  number_educ: 3
+  education1: public opinion
+  education2: quantitative research methods
+  education3: European political behaviour
