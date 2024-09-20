@@ -1,91 +1,64 @@
 - name: Sarah Childs
-  photo: Childs.jpg
   info: Professor of Politics and Gender
-  email: Sarah.Childs@rhul.ac.uk
-  twitter: profsarahchilds
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sarah-childs(a4f918f7-c05b-4347-b79a-186b2842ed11)/publications.html"
-  number_educ: 3
-  education1: descriptive and substantive representation
-  education2: legislative reform
-  education3: candidate selection
+  from: 2020
+  to: 2022
 
 - name: Licia Cianetti
-  photo: Cianetti.png
   info: Leverhulme Early Career Fellow
-  email: Licia.Cianetti@rhul.ac.uk
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/licia-cianetti(eb93895b-be21-4932-88c4-5b8a727ead95)/publications.html"
-  number_educ: 3
-  education1: Central and Eastern European politics
-  education2: democratization
-  education3: local policies on multiculturalism
+  from: 2016
+  to: 2021
 
 - name: Sofia Collignon
-  photo: Collignon.jpg
   info: Lecturer in Political Communication
-  email: Sofia.Collignon@rhul.ac.uk
-  twitter: SofiaColMar
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/sofia-collignon(38cdd0d4-8922-4c88-b186-8d58516a0c1f)/publications.html"
-  number_educ: 3
-  education1: campaign styles
-  education2: local parties
-  education3: candidate selection
+  from: 2018
+  to: 2022
 
 - name: Dishil Shrimankar
-  photo: Shrimankar.jpg
   info: Post-Doctoral Research Fellow
-  email: dishil.shrimankar@rhul.ac.uk
-  twitter: Dishil91
-  pure: "https://pure.royalholloway.ac.uk/portal/en/persons/dishil-shrimankar(b9769b7c-5514-465e-b9d5-ec737166f8f6).html"
-  number_educ: 3
-  education1: local parties
-  education2: candidate selection
-  education3: Indian electoral politics
-
+  from: 2020
+  to: 2022
+  
 - name: Laura Serra
-  photo: Serra.jpg
   info: Lecturer in Politics and Criminology
-  email: laura.serra@rhul.ac.uk
-  homepage: https://pure.royalholloway.ac.uk/en/persons/laura-serra-2
-  twitter: Laura__Serra
-  pure: "https://pure.royalholloway.ac.uk/en/persons/laura-serra-2"
-  number_educ: 3
-  education1: political generations
-  education2: attitude change
-  education3: voting behaviour
+  from: 2018
+  to: 2023
 
 - name: Zhamilya Mukasheva
-  photo: rock.jpg
   info: PhD student
-  email: Zhamilya.Mukasheva.2018@live.rhul.ac.uk
-  number_educ: 0
-  education1:
+  from: 2018
+  to: 2023
 
 - name: Arvind Kumar
-  photo: rock.jpg
-  info: PHD student
-  email: Arvind.Kumar.2019@live.rhul.ac.uk
-  number_educ: 0
-  education1:
+  info: PhD student
+  from: 2019
+  to: 2024
   
 - name: Nick Hatton
-  photo: rock.jpg
   info: PhD student
-  email: Nick.Hatton@rhul.ac.uk
-  number_educ: 0
-  education1:
-
+  from: 2018
+  to: 2023
+  
 - name: Tom Barton
-  photo: rock.jpg
   info: PhD student
-  email: Tom.Barton.2019@live.rhul.ac.uk
-  number_educ: 0
-  education1:
-
+  from: 2019
+  to: 2024
+  
 - name: Miriam Sorace
-  photo: Sorace.jpg
   info: Lecturer in Public Opinion
-  email: miriam.sorace@rhul.ac.uk
-  number_educ: 3
-  education1: public opinion
-  education2: quantitative research methods
-  education3: European political behaviour
+  from: 2021
+  to: 2023
+
+- name: Luke Coughlan
+  info: PhD student
+  from: 2018
+  to: 2024
+
+- name: Gillian Griffiths-Jones
+  info: PhD student
+  from: 2016
+  to: 2023
+
+- name: Matt Polacko
+  info: PhD student
+  from: 2017
+  to: 2021
