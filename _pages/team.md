@@ -72,7 +72,7 @@ permalink: /team/
 
 
 
-## PhD Students
+## Research students
 {: .member-type }
 
 <div class="row">

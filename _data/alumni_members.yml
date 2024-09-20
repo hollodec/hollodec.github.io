@@ -59,3 +59,24 @@
   email: Zhamilya.Mukasheva.2018@live.rhul.ac.uk
   number_educ: 0
   education1:
+
+- name: Arvind Kumar
+  photo: rock.jpg
+  info: PHD student
+  email: Arvind.Kumar.2019@live.rhul.ac.uk
+  number_educ: 0
+  education1:
+  
+- name: Nick Hatton
+  photo: rock.jpg
+  info: PhD student
+  email: Nick.Hatton@rhul.ac.uk
+  number_educ: 0
+  education1:
+
+- name: Tom Barton
+  photo: rock.jpg
+  info: PhD student
+  email: Tom.Barton.2019@live.rhul.ac.uk
+  number_educ: 0
+  education1:

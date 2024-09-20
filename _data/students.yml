@@ -22,13 +22,6 @@
   number_educ: 0
   education1:
 
-- name: Tom Barton
-  photo: rock.jpg
-  info: PhD student
-  email: Tom.Barton.2019@live.rhul.ac.uk
-  number_educ: 0
-  education1:
-
 - name: Olaf Borghi
   photo: rock.jpg
   info: PHD student
@@ -38,15 +31,8 @@
   
 - name: Marta Fatica
   photo: rock.jpg
-  info: PhD student
+  info: MPhil student
   email: marta.fatica@rhul.ac.uk
-  number_educ: 0
-  education1:
-
-- name: Nick Hatton
-  photo: rock.jpg
-  info: PhD student
-  email: Nick.Hatton@rhul.ac.uk
   number_educ: 0
   education1:
 
@@ -57,10 +43,9 @@
   number_educ: 0
   education1:
 
-- name: Arvind Kumar
+- name: Jama Yusuf
   photo: rock.jpg
-  info: PHD student
-  email: Arvind.Kumar.2019@live.rhul.ac.uk
+  info: PhD student
+  email: Jama.Yusuf.2024@live.rhul.ac.uk
   number_educ: 0
   education1:
-  
