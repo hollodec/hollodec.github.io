@@ -6,4 +6,4 @@ This website is based on a template originally provided by the [Allan Lab](https
 
 News images should have dimensions 269 by 160 pixels.
 
-Want to add a news item? 
+News items can be added by editing _data/news.yml

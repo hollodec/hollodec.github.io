@@ -41,7 +41,7 @@ get_bibtex <- function(url) {
     divs <- html_elements(container, xpath = "./div")
     text <- unlist(lapply(divs, html_text))
     text <- paste(text, collapse = "\n")
-    text <- paste(text, "}\n\n")
+    text <- paste(text, "\n}\n\n")
     cat(text,
         file = here::here("_bibliography", "publications.bib"),
         append = TRUE)
@@ -52,6 +52,7 @@ bibtex <- lapply(items, function(x) lapply(x, get_bibtex))
 
 
 bib_df <- bib2df(file = here::here("_bibliography", "publications.bib"))
+test_df <- bib2df(file = here::here("_bibliography", "test.bib"))
 
 ### Handle accents
 accents <- tribble(~unicode, ~replacement,
@@ -118,6 +119,7 @@ bib_df$VOLUME <- coalesce(bib_df$VOLUME, "")
 bib_df <- bib_df %>%
     dplyr::select(-BIBTEXKEY) %>% 
     distinct()
+
 
 writeLines(as.yaml(bib_df, column.major = FALSE),
            con = here::here("_data", "biblio.yml"))
