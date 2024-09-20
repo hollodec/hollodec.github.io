@@ -118,7 +118,6 @@ permalink: /team/
   <div class="col-md-4 member-card">
     <h4 class="member-card__name">{{ member.name }}</h4>
     <p class="member-card__info">Previously a centre member between {{ member.from }} and {{ member.to }}, most recently as {{ member.info }}</p>
-    </ul>
   </div>
 
 {% endfor %}
