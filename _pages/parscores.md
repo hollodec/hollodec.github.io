@@ -671,11 +671,11 @@ custom_css: parscores
 	<h5>Enter polling figures for Great Britain</h5>
 	<div style = "float: left;">
 	  <label for="conpoll">Cons.</label>
-	  <input type="number" id="conpoll" name="conpoll" value = "45" onkeyup = "sum_to_one()" min = "0" max = "100">
+	  <input type="number" id="conpoll" name="conpoll" value = "24" onkeyup = "sum_to_one()" min = "0" max = "100">
 	</div>
 	<div style = "float: left;">
 	  <label for="labpoll">Lab.</label>
-	  <input type="number" id="labpoll" name="labpoll" value = "33" onkeyup = "sum_to_one()" min = "0" max = "100">
+	  <input type="number" id="labpoll" name="labpoll" value = "35" onkeyup = "sum_to_one()" min = "0" max = "100">
       	</div>
       	<div style = "float: left;">
 	  <label for="libpoll">Lib. Dem.</label>
@@ -687,7 +687,7 @@ custom_css: parscores
       	</div>
       	<div style = "float: left;">
 	  <label for = "othpoll">All others</label>
-	  <input type="number" id="othpoll" name="othpoll" value = "6" onkeyup = "sum_to_one()" value = "0" min = "0" max = "100">
+	  <input type="number" id="othpoll" name="othpoll" value = "25" onkeyup = "sum_to_one()" value = "0" min = "0" max = "100">
       	</div>
       </fieldset>
 <input type="submit" value="Get par score" />
