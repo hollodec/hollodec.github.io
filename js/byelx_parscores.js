@@ -81,7 +81,7 @@ function valid_polls() {
     } else {
 	document.getElementById('natoos').style.display = "none";
     }
-    if (othpollchg > 0.13) {
+    if (othpollchg > 0.31) {
 	document.getElementById('othoos').style.display = "block";
     } else {
 	document.getElementById('othoos').style.display = "none";
@@ -111,23 +111,23 @@ function formhandler() {
     var natpollchg = document.getElementById('natpoll').value / 100;
     var othpollchg = document.getElementById('othpoll').value / 100;
     
-    // subtract 2019 values
-    var conpollchg = conpollchg - 0.447287;
-    var labpollchg = labpollchg - 0.3288747;
-    var libpollchg = libpollchg - 0.1183808;
-    var natpollchg = natpollchg - 0.04469667;
-    var othpollchg = othpollchg - 0.06076081;
+    // subtract 2024 values
+    var conpollchg = conpollchg - 0.2436138;
+    var labpollchg = labpollchg - 0.3463749;
+    var libpollchg = libpollchg - 0.1255514;
+    var natpollchg = natpollchg - 0.03280719;
+    var othpollchg = othpollchg - 0.2516527;
 
 
     // standardize these (don't actually need conpollchg or natpollchg)
-    labpollchg = (labpollchg - 0.002496) / 0.07426;
-    libpollchg = (libpollchg - 0.01137) / 0.0814;
-    othpollchg = (othpollchg - 0.005851) / 0.0235;
+    labpollchg = (labpollchg - 0.003858312) / 0.07301818;
+    libpollchg = (libpollchg - 0.01143322) / 0.07838232;
+    othpollchg = (othpollchg - 0.005896825) / 0.02581033;
     
     // Insert these into the x variable at the right positions
     x[8] = labpollchg;
     x[9] = othpollchg;
-    x[18] = libpollchg;
+    x[20] = libpollchg;
     
     // deal with candidacy
     var ctry = pretty[pos][6];
