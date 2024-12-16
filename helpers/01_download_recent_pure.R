@@ -9,7 +9,7 @@ library(tidyverse)
 library(purrr)
 library(yaml)
 library(bib2df)
-
+library(stringr)
 ### Programmatically
 ### Read in the YAML
 ### Just get the PURE URL
@@ -51,11 +51,12 @@ get_bibtex <- function(url) {
 bibtex <- lapply(items, function(x) lapply(x, get_bibtex))
 
 
+alt_df <- read.bib(here::here("_bibliography", "publications.bib"))
 bib_df <- bib2df(file = here::here("_bibliography", "publications.bib"))
 test_df <- bib2df(file = here::here("_bibliography", "test.bib"))
 
 ### Handle accents
-accents <- tribble(~unicode, ~replacement,
+accents <- tribble(~unicode, ~bibtex,
                    "é", "\\'{e}",
                    "ñ", "\\~{n}",
                    "ö", '\\"{o}',
@@ -64,16 +65,15 @@ accents <- tribble(~unicode, ~replacement,
                    "ü", '\\"{u}',
                    "å", "\\aa}",
                    "í", "\\'\\i")
-require(stringi)
 
-for (i in 1:nrow(accents)) {
-    print(".")
-    for (v in c("TITLE", "AUTHOR")) {
-        bib_df[, v] <-gsub(pattern = accents$replacement[i],
-                           replacement = accents$unicode[i],
-                           bib_df[, v], fixed = TRUE)
-    }
-}
+repl <- accents$unicode
+repl <- setNames(repl, accents$bibtex)
+
+bib_df$TITLE <- stringr::str_replace_all(bib_df$TITLE,
+                                         fixed(repl))
+
+bib_df$AUTHOR <- stringr::str_replace_all(bib_df$AUTHOR,
+                                         fixed(repl))
                    
 bib_df$TITLE <- gsub("{\\textquotedblleft}", "'", bib_df$TITLE, fixed = TRUE)
 bib_df$TITLE <- gsub("{\\textquotedblright}", "'", bib_df$TITLE, fixed = TRUE)
