@@ -16,6 +16,33 @@ If you would like to read a publication written by a member of the centre but ar
 
 </div>
 
+<h5>2024</h5>
+<ul>
+{% for paper in site.data.biblio %}
+{% if paper.YEAR == 2024 %}
+<li>
+	{% if paper.CATEGORY == "ARTICLE" %}
+      {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}",
+      <em>{{ paper.JOURNAL }}</em>,
+      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
+      {{ paper.PAGES }}.
+      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  	{% elsif paper.CATEGORY == "BOOK" %}
+      {{ paper.AUTHOR }}
+      <em>{{ paper.TITLE }}</em>.
+	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
+	  {% elsif paper.CATEGORY == "INBOOK" %}
+	  {{ paper.AUTHOR }}
+      "{{ paper.TITLE }}", in
+	  <em>{{ paper.BOOKTITLE }}</em>
+		{% endif %}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+
 <h5>2023</h5>
 <ul>
 {% for paper in site.data.biblio %}
@@ -101,33 +128,6 @@ If you would like to read a publication written by a member of the centre but ar
 <ul>
 {% for paper in site.data.biblio %}
 {% if paper.YEAR == 2020 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
-
-
-<h5>2019</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2019 %}
 <li>
 	{% if paper.CATEGORY == "ARTICLE" %}
       {{ paper.AUTHOR }}
