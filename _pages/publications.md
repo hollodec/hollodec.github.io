@@ -16,136 +16,22 @@ If you would like to read a publication written by a member of the centre but ar
 
 </div>
 
-<h5>2024</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2024 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
+<h5>2025</h5>
 
+{% bibliography --query @*[year=2025] %}
+
+<h5>2024</h5>
+
+{% bibliography --query @*[year=2024] %}
 
 <h5>2023</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2023 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
 
+{% bibliography --query @*[year=2023] %}
 
 <h5>2022</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2022 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
 
+{% bibliography --query @*[year=2022] %}
 
 <h5>2021</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2021 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
 
-
-<h5>2020</h5>
-<ul>
-{% for paper in site.data.biblio %}
-{% if paper.YEAR == 2020 %}
-<li>
-	{% if paper.CATEGORY == "ARTICLE" %}
-      {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}",
-      <em>{{ paper.JOURNAL }}</em>,
-      {% if paper.VOLUME != "" %} <strong>{{ paper.VOLUME }}</strong>,{% endif %}
-      {{ paper.PAGES }}.
-      <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  	{% elsif paper.CATEGORY == "BOOK" %}
-      {{ paper.AUTHOR }}
-      <em>{{ paper.TITLE }}</em>.
-	  <a href="http://dx.doi.org/{{ paper.DOI }}">[DOI]</a>
-	  {% elsif paper.CATEGORY == "INBOOK" %}
-	  {{ paper.AUTHOR }}
-      "{{ paper.TITLE }}", in
-	  <em>{{ paper.BOOKTITLE }}</em>
-		{% endif %}
-</li>
-{% endif %}
-{% endfor %}
-</ul>
+{% bibliography --query @*[year=2021] %}
