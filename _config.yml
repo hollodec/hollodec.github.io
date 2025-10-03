@@ -24,6 +24,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-scholar
 
 # Conversion
 # markdown: kramdown
@@ -32,7 +33,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+scholar:
+ csl: _bibliography/chicago-author-date.csl
 
 # # Markdown Processing
 # kramdown:
