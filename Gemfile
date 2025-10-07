@@ -14,6 +14,9 @@ gem "minima", "~> 2.5"
 # Needed for Ruby >= 3.0
 gem "webrick", "~> 1.8"
 
+# weird issues with citations
+gem "bibtex-ruby", "~> 6.0.0"
+
 # Plugins
 gem "jekyll-scholar", "~> 7.0"    # bibliographic management
 gem "jekyll-paginate", "~> 1.1"   # optional, pagination
