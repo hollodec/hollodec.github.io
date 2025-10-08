@@ -16,6 +16,7 @@ gem "webrick", "~> 1.8"
 
 # weird issues with citations
 gem "bibtex-ruby", "~> 6.0.0"
+gem "citeproc-ruby", "~> 1.1.14"
 
 # Plugins
 gem "jekyll-scholar", "~> 7.0"    # bibliographic management
